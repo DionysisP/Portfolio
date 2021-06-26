@@ -1,0 +1,183 @@
+.item p{
+    color:#000000;
+}
+
+.icon p{
+    color:black;
+}
+@media screen and (min-width: 1024px){
+
+    .container{
+        display:inline-flex;
+        text-align: left;
+        
+    }
+    
+    .item{
+        display: inline-flex;
+        text-align: center;
+        margin: 0px 20px 75px 20px;
+    
+    }
+    .item p{
+        margin: 10px 0 10px 25px;
+ 
+    }
+
+    .item img{
+      
+        width:54px;
+        height:54px;
+        padding-left:25px;
+
+    }
+
+    .allIcons{
+        padding: 50px 100px;
+        border-top:1px solid #f1f1f1;
+    }
+
+    .icon{
+        display:inline-flex;
+        margin: 0 11px;
+    }
+    .icon p{
+        margin: 0 10px;
+    }
+
+    
+
+}
+/* Desktop Responsive */
+
+
+@media screen and (max-width: 1024px){
+    .container{
+        display:inline-flex;
+        text-align: left;
+        
+        
+    }
+    
+    .item{
+        display: inline-flex;
+        text-align: center;
+        margin: 0px 10px 75px 10px;
+    
+    }
+    .item p{
+        margin: 10px 0 10px 25px;
+ 
+    }
+
+    .item img{
+      
+        width:54px;
+        height:54px;
+        padding-left:25px;
+
+    }
+
+    .allIcons{
+        padding: 50px 100px;
+        border-top:1px solid #f1f1f1;
+    }
+
+    .icon{
+        display:inline-flex;
+        margin: 0 11px;
+    }
+    .icon p{
+        margin: 0 10px;
+    }
+}
+
+/* Laptop Responsive */
+
+
+@media screen and (max-width: 768px){
+    .container{
+        display:block;
+        text-align: left;
+        width:300px;
+    }
+    
+    .item{
+        display: inline-flex;
+        text-align: center;
+        margin: 0px auto 75px auto;
+    
+    }
+    .item p{
+        margin: 10px 0 10px 25px;
+ 
+    }
+
+    .item img{
+      
+        width:54px;
+        height:54px;
+        padding-left:25px;
+
+    }
+
+    .allIcons{
+        padding: 50px 100px;
+        border-top:1px solid #f1f1f1;
+    }
+
+    .icon{
+        display:inline-flex;
+        margin: 0 11px;
+    }
+    .icon p{
+        margin: 0 10px;
+    }
+  
+}
+
+/* Tablet Responsive */
+
+@media screen and (max-width: 568px){
+    .container{
+        display:block;
+        text-align: left;
+        width:300px;
+    }
+    
+    .item{
+        display: inline-flex;
+        text-align: center;
+        margin: 0px auto 75px auto;
+    
+    }
+    .item p{
+        margin: 10px 0 10px 25px;
+ 
+    }
+
+    .item img{
+      
+        width:54px;
+        height:54px;
+        padding-left:25px;
+
+    }
+
+    .allIcons{
+        padding: 50px 0;
+        border-top:1px solid #f1f1f1;
+    }
+
+    .icon{
+        display:inline-flex;
+        margin: 0 11px;
+    }
+    .icon p{
+        margin: 0 10px;
+    }
+  
+}
+
+/* Mobile Responsive */
+

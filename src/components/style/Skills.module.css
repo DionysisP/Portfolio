@@ -1,0 +1,32 @@
+.list{
+    text-align: left;
+    display:inline-flex;
+    
+}
+.list ul{
+    padding:0 75px;
+}
+
+.listTitle{
+    color: #A6A6A6;
+}
+.list li{
+    padding:7px 0;
+    text-transform: capitalize;
+}
+
+
+
+
+@media screen and (max-width: 568px){
+    .list{
+        text-align: center;
+      
+    }
+    .list ul{
+        text-align: left;
+        padding:20px;
+        
+    }
+ 
+}

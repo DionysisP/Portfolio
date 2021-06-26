@@ -1,0 +1,120 @@
+.burger {
+    width: 50px;
+    height: 50px;
+    margin: 15px 0 0 15px;
+
+}
+
+
+
+@media screen and (min-width: 1024px){
+
+.burger{
+    display: none;
+}
+
+.topBarBackground{
+    background-color: #384264;
+    width: 100%;
+}
+.topBar {
+    width: 100%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.topBar ul{
+    display: inline-flex;
+}
+
+
+li{
+    list-style-type: none;
+    font-size:24px;
+    padding: 40px 75px;
+    text-transform: uppercase;
+}
+
+}
+/*Desktop Responsive*/
+@media screen and (max-width: 1024px){
+
+    .burger{
+        display: none;
+    }
+    
+    .topBarBackground{
+        background-color: #384264;
+        width: 100%;
+    }
+    .topBar {
+        width: 100%;
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    
+    .topBar ul{display:inline-flex;}
+    
+    
+    li{
+        list-style-type: none;
+        font-size:18px;
+        padding: 40px 35px;
+        text-transform: uppercase;
+    }
+
+    
+}
+
+/* Laptop Responsive */
+
+
+
+
+@media screen and (max-width: 768px) {
+    .burger{
+        display: block;
+    }
+    
+    .topBar{
+        display: none;
+    }
+    
+    .topBarBackground{
+        border-bottom: 1px solid white;
+        padding-bottom: 12px;
+        position: fixed;
+        top:0;
+        z-index: 1;
+     
+    }
+}
+
+
+@media screen and (max-width: 568px){
+
+.burger{
+    display: block;
+}
+
+.topBar{
+    display: none;
+}
+
+.topBarBackground{
+    border-bottom: 1px solid white;
+    padding-bottom: 12px;
+    position: fixed;
+    top:0;
+    z-index: 1;
+  
+}
+
+}
+
+/*Mobile Responsive*/
+

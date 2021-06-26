@@ -1,0 +1,113 @@
+
+
+.firstPhoto{
+  width:19rem;
+  height:100%;
+  padding-bottom: 55px;
+}
+
+.secondPhoto{
+  display: block;
+}
+
+
+
+.portfolioButton {
+  width: 256px;
+  height: 56px;
+  font-size: 24px;
+  border:none;
+  background-color: #384264;
+  color:white;
+  border-radius: 2px;
+}
+
+.portfolioButton:hover{
+  cursor: pointer;
+  color:white;
+  background-color: #f81783;
+  transition: 0.5s;
+}
+
+
+@media screen and (min-width: 1024px){
+  .display{
+    display: inline-flex;
+  }
+
+  .firstPhoto{
+    width: 15rem;
+    height: 100%;
+  }
+
+  .secondPhoto{
+    width: 30rem;
+    height: 100%;
+    margin-top:63px;
+    padding-left:115px;
+  }
+  
+
+}
+/* Desktop Responsive */
+
+@media screen and (max-width: 1024px){
+  .display{
+    
+    display:block;
+    text-align: center;
+  }
+
+  .firstPhoto{
+    width: 15rem;
+    height: 100%;
+  }
+
+  .secondPhoto{
+    width: 30rem;
+    height: 100%;
+    margin-top:63px;
+    padding-bottom: 70px;
+
+  }
+  
+
+}
+/* Laptop Responsive */
+
+@media screen and (max-width: 768px){
+  .display{
+    text-align: center;
+    display:block;
+  }
+  .firstPhoto{
+    width: 15rem;
+    height: 100%;
+  }
+
+  .secondPhoto{
+    width: 25rem;
+    padding-bottom:70px;
+    padding-left:0px;
+  }
+}
+/* Tablet Responsive */
+
+@media screen and (max-width: 568px){
+  .display{
+    text-align: center;
+    display:block;
+    
+  }
+  .firstPhoto{
+    width: 10rem;
+    height: 100%;
+  }
+  .secondPhoto{
+      width:15rem;
+      height: 100%;
+      padding-bottom:70px;
+      padding-left:0px;
+  }
+}
+/* Mobile Responsive */
