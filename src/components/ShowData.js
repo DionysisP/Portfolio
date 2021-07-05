@@ -1,8 +1,9 @@
 import React from 'react';
 import classes from './style/ShowData.module.css';
 import arrow from '../images/arrow.svg';
-export default function ShowData(props){
+import {Link} from 'react-router-dom';
 
+export default function ShowData(props){
 
     return(
         
@@ -11,7 +12,7 @@ export default function ShowData(props){
             
 
             <h1>{props.title}</h1>
-            <div className={classes.back}><img src={arrow} alt='arrow' /><a href='/portfolio'> Back to Projects</a></div>
+            <div className={classes.back}><img src={arrow} alt='arrow' /><Link to={'/Portfolio'}> Back to Projects</Link></div>
             <div className={classes.mainContainer}>
             
                 <div className={classes.container1}> 
