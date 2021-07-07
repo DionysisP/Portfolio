@@ -1,0 +1,18 @@
+
+.singleProject{
+    
+}
+
+.singleProject img{
+    width:300px;
+}
+
+.singleProject h4{
+    color:#000000;
+    font-size: 25px;
+}
+
+.singleProject p{
+    color:grey;
+    font-size: 15px;
+}
