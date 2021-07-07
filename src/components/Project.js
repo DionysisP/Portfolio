@@ -5,12 +5,15 @@ import {Link} from 'react-router-dom';
 
 export default function ShowData(props){
 
+
+   
+
     return(
         
         <div className="wrapper2" style={{'paddingTop' : '64px'}}>
             
+            {console.log(props)}
             
-
             <h1>{props.title}</h1>
             <div className={classes.back}><img src={arrow} alt='arrow' /><Link to={'/Portfolio'}> Back to Projects</Link></div>
             <div className={classes.mainContainer}>
