@@ -2,7 +2,7 @@ import {Route, Switch} from 'react-router-dom';
 
 import Navigation from "./components/Navigation";
 import Homepage from './components/Homepage.js';
-
+import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -20,6 +20,7 @@ function App() {
   return (
     <div className="App">
       <Navigation />
+      <ScrollToTop />
       <Switch>
         <Route path='/' exact>
             <Homepage />
@@ -48,23 +49,19 @@ function App() {
         <Route path='/contact' exact>
             <Contact title='Contact' />
         </Route> 
-
-        {/* <Route path='/showData/:id' component={ShowData} /> */}
-         
+        {/*
+        <Route exact path='/showData/' component={ShowData} /> 
+        
+        
         <Route path={'/showData/1'}>
           <ShowData title='Covid Vaccine Company' desc="Phasellus consectetur, nisi ornare viverra dapibus, lectus libero gravida urna, nec finibus erat odio eget enim. Phasellus vestibulum nec tellus id semper. Donec convallis magna in ante gravida fermentum. Vivamus ut arcu ligula. " img={cvcApp} color1='56ADFD' color2='20C276' color3='FFFFFF' color4='5A5A5A' />
           <Footer title="Contact"/>
         </Route>
 
-        <Route path={'/showData/2'}>
-          <ShowData title='Cinema app' desc="Phasellus consectetur, nisi ornare viverra dapibus, lectus libero gravida urna, nec finibus erat odio eget enim. Phasellus vestibulum nec tellus id semper. Donec convallis magna in ante gravida fermentum. Vivamus ut arcu ligula. " img={cinemaApp} color1='56ADFD' color2='20C276' color3='FFFFFF' />
-          <Footer title="Contact"/>
-        </Route>
+        */}
 
-        <Route path={'/showData/3'}>
-          <ShowData title='Lyrics' desc="Phasellus consectetur, nisi ornare viverra dapibus, lectus libero gravida urna, nec finibus erat odio eget enim. Phasellus vestibulum nec tellus id semper. Donec convallis magna in ante gravida fermentum. Vivamus ut arcu ligula. " img={lyricsApp} color1='56ADFD' color2='20C276' color3='FFFFFF' />
-          <Footer title="Contact"/>
-        </Route>
+          
+  
 
       </Switch>
     </div>
