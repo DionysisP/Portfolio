@@ -5,6 +5,9 @@ h4{
 
 .allProjects{
     display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90vw;
 }
 
 .projectBtn{
