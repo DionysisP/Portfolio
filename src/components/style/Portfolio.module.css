@@ -3,6 +3,13 @@ h4{
     padding:20px 0;
 }
 
+.projectsTitle{
+    width: 75vw;
+    text-align: left;
+    border-bottom:1px solid #EBEBEB;
+    font-weight: 100;
+    font-size:20px;
+}
 .allProjects{
     display: inline-flex;
     flex-wrap: wrap;
