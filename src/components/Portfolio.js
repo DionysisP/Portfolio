@@ -10,6 +10,7 @@ import cvcMob from '../images/cvc-mobile.jpg';
 import dpDesk from '../images/dpDesktop.jpg';
 import dpMob from '../images/dpMobile.jpg';
 import at from './portfolioComponents/images/ATlogo.svg';
+import webAtClass from './portfolioComponents/images/webAtClass.png';
 
 export default function Portfolio(props) {
 
@@ -18,6 +19,7 @@ export default function Portfolio(props) {
         <div className="wrapper2" style={{ 'paddingTop': '64px' }}>
 
             <h1>{props.title}</h1>
+
             <h5 className={style.projectsTitle}>Web design</h5>
             <div className={style.allProjects}>
                 <ShowProject title='Mykonos Instant Transfer' description='Nullam ut dui vulputate, semper lacus et, feugiat arcu. Morbi justo lacus, mollis at augue in, eleifend semper enim. Mauris ipsum tortor, convallis.' image={mykonos} image2={mykonos2} gitHub={'https://github.com/DionysisP/mykonosProject'} />
@@ -28,7 +30,11 @@ export default function Portfolio(props) {
 
 
             <h5 className={style.projectsTitle}>Logo Design</h5>
-            <Logos logo={at} />
+            <div className={style.allLogos}>
+                <Logos logo={at} />
+                
+            </div>
+
         </div>
     );
 }
