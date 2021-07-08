@@ -3,9 +3,7 @@
     padding:50px;
 }
 
-.singleProject img{
-    width:400px;
-}
+
 
 .singleProject h4{
     color:#000000;
@@ -17,4 +15,33 @@
     color:grey;
     font-size: 15px;
     width:400px;
+}
+
+.vectorDesktop{
+    width:400px;
+
+}
+
+.vectorMobile{
+    width:100px;
+    position: relative;
+    margin-left:-80px;
+}
+.projImg{
+    width:364px;
+    height:207px;
+    margin-bottom:68px;
+    margin-left:-381px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.projImg2{
+    position: absolute;
+    width:70px;
+    height:124px;
+    margin-top:146px;
+    margin-left:-85px;
+    object-fit: cover;
+    border-radius: 5px;
 }

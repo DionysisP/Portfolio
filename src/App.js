@@ -9,9 +9,9 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 
 import Project from './components/Project.js';
-import cvcApp from './images/cvc-app.jpg';
-import cinemaApp from './images/cinema-app.jpg';
-import lyricsApp from './images/lyrics.jpg';
+
+import test from './images/cv.jpg';
+
 
 
 
@@ -55,7 +55,7 @@ function App() {
         
       
         <Route path={'/project/1'}>
-          <Project title='Covid Vaccine Company' desc="Phasellus consectetur, nisi ornare viverra dapibus, lectus libero gravida urna, nec finibus erat odio eget enim. Phasellus vestibulum nec tellus id semper. Donec convallis magna in ante gravida fermentum. Vivamus ut arcu ligula. " img={cvcApp} color1='56ADFD' color2='20C276' color3='FFFFFF' color4='5A5A5A' />
+          <Project title='Covid Vaccine Company' desc="Phasellus consectetur, nisi ornare viverra dapibus, lectus libero gravida urna, nec finibus erat odio eget enim. Phasellus vestibulum nec tellus id semper. Donec convallis magna in ante gravida fermentum. Vivamus ut arcu ligula. " img={test} color1='56ADFD' color2='20C276' color3='FFFFFF' color4='5A5A5A' />
           <Footer title="Contact"/>
         </Route>
 
