@@ -10,7 +10,7 @@ import cvcMob from '../images/cvc-mobile.jpg';
 import dpDesk from '../images/dpDesktop.jpg';
 import dpMob from '../images/dpMobile.jpg';
 import at from './portfolioComponents/images/ATlogo.svg';
-import webAtClass from './portfolioComponents/images/webAtClass.png';
+import elida from './portfolioComponents/images/elida.svg';
 
 export default function Portfolio(props) {
 
@@ -32,7 +32,7 @@ export default function Portfolio(props) {
             <h5 className={style.projectsTitle}>Logo Design</h5>
             <div className={style.allLogos}>
                 <Logos logo={at} />
-                
+                <Logos logo={elida} />
             </div>
 
         </div>
