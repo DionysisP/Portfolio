@@ -1,11 +1,11 @@
 import React from 'react';
-import classes from './style/ShowData.module.css';
+import classes from './style/Project.module.css';
 import arrow from '../images/arrow.svg';
 import { Link } from 'react-router-dom';
 import ViewCodeButton from './portfolioComponents/ViewCodeButton';
 
 
-export default function ShowData(props) {
+export default function Project(props) {
 
 
     return (
