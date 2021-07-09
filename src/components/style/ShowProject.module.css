@@ -2,6 +2,10 @@
     color:grey;
 }
 
+.singleProject h4{
+    font-weight: 100;
+}
+
 .btn:hover{
     transition: 0.7s;
 }
@@ -81,13 +85,86 @@
     }
 
  
-
 }
+
+@media screen and (max-width: 1024px){
+
+  
+    .singleProject{
+        padding:50px;
+    }
+
+
+
+    .singleProject h4{
+        color:#000000;
+        font-size: 28px;
+        
+    }
+
+    .singleProject p{
+        font-size: 15px;
+        width:400px;
+        height:50px;
+        text-align: left;
+        margin:0 auto;
+    }
+
+    .vectorDesktop{
+        width:400px;
+
+    }
+
+    .vectorMobile{
+        width:100px;
+        position: relative;
+        margin-left:-45px;
+    }
+    .projImg{
+        width:364px;
+        height:207px;
+        margin-bottom:68px;
+        margin-left:-381px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+
+    .projImg2{
+        position: absolute;
+        width:70px;
+        height:124px;
+        margin-top:146px;
+        margin-left:-85px;
+        object-fit: cover;
+        border-radius: 3px;
+    }
+
+
+    .btn{
+        width: 196px;
+        height:47px;
+        border:none;
+        background-color: #384264;
+        padding:10px 40px;
+        color:white;
+        margin:20px 2.5px 0 2.5px;
+        font-size:18px;
+    }
+
+
+    .btn:hover{
+        cursor:pointer;
+        background-color:black;
+    }
+
+ 
+}
+
 @media screen and (max-width: 768px){
 
     .singleProject h4{
         font-size:28px;
-        margin-top:-263px;
+        margin-top:-210px;
     }
     .singleProject{
         padding:50px;
@@ -102,21 +179,21 @@
     }
 
     .vectorDesktop{
-        width:500px;
+        width:340px;
     
     }
 
     .vectorMobile{
-        width:130px;
+        width:86px;
         position: absolute;
-        margin-left:-63px;
-        margin-top:-215px;
+        margin-left:-40px;
+        margin-top:-150px;
         
     }
     .projImg{
-        width:454px;
-        height:260px;
-        top:-352px;
+        width:311px;
+        height:177px;
+        top:-243px;
         margin-left:1px;
         position: relative;
         object-fit: cover;
@@ -125,10 +202,10 @@
 
     .projImg2{
         position: absolute;
-        width:90px;
-        height:161px;
-        margin-top:-190px;
-        margin-left:-43px;
+        width:60px;
+        height:106px;
+        margin-top:-134px;
+        margin-left:-27px;
         object-fit: cover;
         border-radius: 3px;
     }
@@ -169,7 +246,8 @@
     }
 
     .singleProject{
-        padding:50px 25px;
+        width:300px;
+        padding:50px 0;
         border-bottom:1px solid #dadada;
     }
 
@@ -183,7 +261,7 @@
     
     
     .vectorDesktop{
-        width:250px;
+        width:240px;
     
     }
 
@@ -197,9 +275,9 @@
 
 
     .projImg{
-        width:228px;
-        height:130px;
-        top:-180px;
+        width:220px;
+        height:124px;
+        top:-173px;
         position: relative;
         object-fit: cover;
         border-radius: 6px;
