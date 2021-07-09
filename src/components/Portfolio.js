@@ -11,20 +11,22 @@ import dpDesk from '../images/dpDesktop.jpg';
 import dpMob from '../images/dpMobile.jpg';
 import at from './portfolioComponents/images/ATlogo.svg';
 import elida from './portfolioComponents/images/elida.svg';
+import React from 'react';
+
 
 export default function Portfolio(props) {
 
     return (
 
         <div className="wrapper2" style={{ 'paddingTop': '64px' }}>
-
+            
             <h1>{props.title}</h1>
 
             <h5 className={style.projectsTitle}>Web design</h5>
             <div className={style.allProjects}>
-                <ShowProject title='Mykonos Instant Transfer' description='Nullam ut dui vulputate, semper lacus et, feugiat arcu. Morbi justo lacus, mollis at augue in, eleifend semper enim. Mauris ipsum tortor, convallis.' image={mykonos} image2={mykonos2} gitHub={'https://github.com/DionysisP/mykonosProject'} />
-                <ShowProject title='Cvc' description='Nam interdum tempus lectus id blandit. Cras posuere convallis orci, nec tempus augue maximus sit amet. Pellentesque sit amet aliquam magna.' image={cvcDesk} image2={cvcMob} />
-                <ShowProject title='DP Portfolio' description='Praesent faucibus purus vitae placerat lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.' image={dpDesk} image2={dpMob} />
+                <ShowProject id='1' title='Mykonos Instant Transfer' description='A Single page application I designed and developed in a couple of hours' image={mykonos} image2={mykonos2} gitHub={'https://github.com/DionysisP/mykonosProject'}/>
+                <ShowProject id='2' title='Imagym' description='Imagym initialy developed in Wordpress by someone else. I decided to re-make it in JQuery for optimization purposes' image={cvcDesk} image2={cvcMob} />
+                <ShowProject id='3' title='DP Portfolio' description='My personal online portfolio you are currently seeing. Designed in Figma and developed with React' image={dpDesk} image2={dpMob} />
 
             </div>
 
@@ -36,5 +38,6 @@ export default function Portfolio(props) {
             </div>
 
         </div>
+
     );
 }
