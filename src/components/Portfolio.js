@@ -15,6 +15,7 @@ import at from './portfolioComponents/images/ATlogo.svg';
 import elida from './portfolioComponents/images/elida.svg';
 import webAtClass from './portfolioComponents/images/webAtClass.svg';
 import eveningJam from './portfolioComponents/images/eveningjam.svg';
+import bell from './portfolioComponents/images/bell.svg';
 import React from 'react';
 
 
@@ -40,10 +41,8 @@ export default function Portfolio(props) {
                 <Logos logo={webAtClass} />
                 <Logos logo={elida} />
                 <Logos logo={eveningJam} />
-                <Logos logo={at} />
-                
-                
-                
+                <Logos logo={at} /> 
+                <Logos logo={bell} />
             </div>
 
         </div>
