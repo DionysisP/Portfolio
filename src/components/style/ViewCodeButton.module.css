@@ -1,27 +1,30 @@
+.btn{
+    border:none;
+    background-color: #F81783;
+    color:white;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color:black;
+    transition: 0.7s;
+}
+
+.icon{
+    position: absolute;
+    margin-top:1px;
+}
+
 @media screen and (min-width: 1024px){
 
     .btn{
         width: 196px;
         height:47px;
-        border:none;
-        background-color: #384264;
         padding:10px 40px;
-        color:white;
         margin:20px 2.5px 0 2.5px;
         font-size:18px;
     }
-
-
-    .btn:hover{
-        cursor:pointer;
-        background-color:black;
-    }
-
     .icon{
-        position: absolute;
         margin-left:27px;
-        margin-top:1px;
-        
     }
 }
 
@@ -30,26 +33,13 @@
     .btn{
         width: 250px;
         height:47px;
-        border:none;
-        background-color: #384264;
         padding:10px 40px;
-        color:white;
         margin:5px 2.5px 0 2.5px;
         font-size:18px;
-        
     }
     
-    
-    .btn:hover{
-        cursor:pointer;
-        background-color:black;
-        transition: 0.7s;
-    }
     .icon{
-        position: absolute;
         margin-left:51px;
-        margin-top:-1px;
-        
     }
 }
 
@@ -57,25 +47,13 @@
     .btn{
         width: 250px;
         height:47px;
-        border:none;
-        background-color: #384264;
         padding:10px 40px;
-        color:white;
         margin:5px 2.5px 0 2.5px;
-        font-size:18px;
-        
+        font-size:18px;        
     }
-    
-    
-    .btn:hover{
-        cursor:pointer;
-        background-color:black;
-    }
+
     .icon{
-        position: absolute;
         margin-left:51px;
-        margin-top:1px;
-        
     }
 }
 
