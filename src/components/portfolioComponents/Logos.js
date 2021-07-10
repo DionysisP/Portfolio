@@ -14,6 +14,7 @@ export default function Logos(props) {
         return (
             <div>
                 {/* opens modal and close button*/}
+                <p>Close</p>
                 <img className={style2.icon} src={close} alt="icon" onClick={() => setShowModal(false)} />
                 <Modal image={props.logo} desc={props.desc} />
             </div>
