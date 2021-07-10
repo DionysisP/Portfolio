@@ -4,6 +4,11 @@
 }
 .back a{
     color:#868484;
+    transition: 1s;
+}
+.back a:hover{
+    color:#384264;
+    
 }
 
 
