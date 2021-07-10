@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
 export default function ShowProject(props) {
     return (
         <div className={style.singleProject}>
-          
             <img className={style.vectorDesktop} src={desktop} alt='Desktop Vector' />
             <img className={style.projImg} src={props.image} alt='Project' />
 
@@ -19,18 +18,12 @@ export default function ShowProject(props) {
             <p className={style.projectDesc}>{props.description}</p>
 
             <div className={style.buttons}>
-                <Link to={'/project/' + props.id }>
-            <button className={style.btn}>Preview</button>
-            </Link>
-            <ViewCodeButton url={props.gitHub} />
+                <Link to={'/project/' + props.id}>
+                    <button className={style.btn}>Preview</button>
+                </Link>
+                <ViewCodeButton url={props.gitHub} />
             </div>
-
-            
         </div>
-
-        
-
-
     )
 
 }
