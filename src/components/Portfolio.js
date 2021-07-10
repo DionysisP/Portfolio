@@ -62,12 +62,12 @@ export default function Portfolio(props) {
 
             <h5 className={style.projectsTitle}>Logo Design</h5>
             <div className={style.allLogos}>
-                <Logos logo={webAtClass} />
-                <Logos logo={elida} />
-                <Logos logo={eveningJam} />
-                <Logos logo={at} />
-                <Logos logo={bell} />
-                <Logos logo={martini} />
+                <Logos logo={webAtClass} desc='Web@Class is an online classroom "simulation".' />
+                <Logos logo={elida} desc='Navigation gauntlet for visually impaired people' />
+                <Logos logo={eveningJam} desc='Evening Jam is an Jazz/Blues band from Larisa' />
+                <Logos logo={at} desc='Alexanter Tsapo' />
+                <Logos logo={bell} desc='Just a logo a designed' />
+                <Logos logo={martini} desc='Greek music band from Thesaloniki'/>
             </div>
 
         </div>
