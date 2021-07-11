@@ -5,7 +5,10 @@ export default function Modal(props) {
     return (
 
         <div className={style.main}>
-            <img className={style.logo} src={props.image} alt='sample' />
+            {/*show logo if available*/}
+            <img className={style.logo} src={props.image} alt='' />
+            {/*show website if available*/}
+            <img src={props.image2} />
             <p>{props.desc}</p>
         </div>
     );

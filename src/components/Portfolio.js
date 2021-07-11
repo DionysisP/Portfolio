@@ -35,8 +35,8 @@ export default function Portfolio(props) {
                     id='1'
                     title='Mykonos Instant Transfer'
                     description='A Single page application I designed and developed in a couple of hours'
-                    image={mykonos}
-                    image2={mykonos2}
+                    websiteImage={mykonos}
+                    websiteImage2={mykonos2}
                     gitHub={'https://github.com/DionysisP/mykonosProject'}
                 />
 
@@ -44,8 +44,8 @@ export default function Portfolio(props) {
                     id='2'
                     title='Imagym'
                     description='Imagym initialy developed in Wordpress by someone else. I decided to re-make it in JQuery for optimization purposes'
-                    image={imagym}
-                    image2={imagym}
+                    websiteImage={imagym}
+                    websiteImage2={imagym}
                     gitHub={'https://github.com/DionysisP/gym_website'}
                 />
 
@@ -53,8 +53,8 @@ export default function Portfolio(props) {
                     id='3'
                     title='DP Portfolio'
                     description='My personal online portfolio you are currently seeing. Designed in Figma and developed with React'
-                    image={dpDesk}
-                    image2={dpMob}
+                    websiteImage={dpDesk}
+                    websiteImage2={dpMob}
                 />
 
             </div>

@@ -19,7 +19,7 @@ export default function Project(props) {
             <div>
                 {/* opens modal and close button*/}
                 <img className={style2.icon} src={close} alt="icon" onClick={() => setShowModal(false)} />
-                <Modal image={props.img} desc={props.desc} status={showModal} />
+                <Modal image2={props.websiteImg} desc={props.desc} status={showModal} />
             </div>
         );
     }
@@ -41,7 +41,7 @@ export default function Project(props) {
                 </div>
 
                 <div className={classes.container2} onClick={() => setShowModal(!showModal)}>
-                    <img className={classes.websiteImg} src={props.img} alt='website' />
+                    <img className={classes.websiteImg} src={props.websiteImg} alt='website' />
                     <img className={classes.zoom} src={zoom} alt='zoom' />
                 </div>
             </div>
