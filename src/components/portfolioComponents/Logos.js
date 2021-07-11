@@ -9,12 +9,10 @@ export default function Logos(props) {
     const [showModal, setShowModal] = useState(false);
 
     // when click on a logo, modal appears
-    if (showModal === true) {
-
+    if (showModal) {
         return (
             <div>
                 {/* opens modal and close button*/}
-                <p>Close</p>
                 <img className={style2.icon} src={close} alt="icon" onClick={() => setShowModal(false)} />
                 <Modal image={props.logo} desc={props.desc} />
             </div>
@@ -25,7 +23,6 @@ export default function Logos(props) {
     return (
         <>
             <img className={style.logo} src={props.logo} alt='logo' onClick={() => setShowModal(!showModal)} />
-
         </>
     );
 }

@@ -6,6 +6,8 @@
     top:0;
     left:0;
     color:white;
+    text-align: center;
+    overflow-y: scroll;
 }
 
 .icon{
@@ -24,16 +26,14 @@
 }
 
 .logo{
-    width:500px;
-    height:500px;
+    width:70vw;
     margin-top: 125px;
 }
 
 
 @media screen and (max-width: 1024px){
     .logo{
-        width:400px;
-        height:400px;
+        width:70vw;
     }
 }
 
@@ -46,8 +46,7 @@
         top:100px;
     }
     .logo{
-        width:350px;
-        height:350px;
+        width:70vw;
     }
 }
 /* Tablet Responsive */
@@ -61,8 +60,8 @@
         top:100px;
     }
     .logo{
-        width:250px;
-        height:250px;
+        width:70vw;
+       
     }
 }
 /* Mobile Responsive */

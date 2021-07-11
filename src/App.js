@@ -77,7 +77,7 @@ function App() {
             desc="A Single page application I designed and developed in a couple of hours.I used a Wordpress-like theme and rushed it using public domain images "
             url={''}
             technologies={'React, CSS'}
-            git={'https://github.com/DionysisP/gym_website'}
+            git={'https://github.com/DionysisP/Portfolio'}
             img={dpDesk} />
         </Route>
 
