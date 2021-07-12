@@ -26,10 +26,13 @@
 }
 
 .logo{
-    width:70vw;
+    width:40vw;
     margin-top: 125px;
 }
 
+.website{
+    width:80vw;
+}
 
 @media screen and (max-width: 1024px){
     .logo{
