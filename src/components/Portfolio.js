@@ -1,5 +1,6 @@
 
 import ShowProject from './portfolioComponents/ShowProject';
+
 import Logos from './portfolioComponents/Logos';
 import style from './style/Portfolio.module.css';
 
@@ -71,6 +72,8 @@ export default function Portfolio(props) {
             </div>
 
         </div>
+
+        
 
     );
 }

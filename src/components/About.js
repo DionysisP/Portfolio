@@ -1,4 +1,8 @@
 import classes from './style/AFewWords.module.css';
+import { useState } from 'react';
+import Modal from './portfolioComponents/Modal';
+import close from './portfolioComponents/images/close.svg';
+import style2 from './style/Modal.module.css';
 
 import cv from '../images/cv.jpg';
 import Table from './portfolioComponents/Table';
@@ -12,6 +16,19 @@ import settings from '../images/settings.svg';
 
 export default function Cv(props){
     
+    const [showModal, setShowModal] = useState(false);
+
+    if (showModal) {
+        return (
+            <div>
+                {/* opens modal and close button*/}
+                <img className={style2.icon} src={close} alt="icon" onClick={() => setShowModal(false)} />
+                <Modal image2={cv} status={showModal} />
+            </div>
+        );
+    }
+
+
     return(
         <div className="wrapper2" style={{'paddingTop' : '64px'}}>
             <h1>{props.title}</h1>
@@ -36,7 +53,7 @@ export default function Cv(props){
             
             <div style={{'padding' : '75px 0'}}>
                 <p className={classes.paragraph}>Download pdf here</p>
-                <img className="cv" src={cv} alt="Curriculum Vitae"/>
+                <img className="cv" src={cv} alt="Curriculum Vitae" onClick={() => setShowModal(!showModal)}/>
             </div>
         </div>
     );
