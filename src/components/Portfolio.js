@@ -60,7 +60,7 @@ export default function Portfolio(props) {
             </div>
 
 
-            <h5 className={style.projectsTitle}>Logo Design</h5>
+            <h5 style={{'paddingTop' : '50px'}} className={style.projectsTitle}>Logo Design</h5>
             <div className={style.allLogos}>
                 <Logos logo={webAtClass} desc='Web@Class is an online classroom "simulation".' />
                 <Logos logo={elida} desc='Navigation gauntlet for visually impaired people' />
