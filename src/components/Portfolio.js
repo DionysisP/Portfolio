@@ -35,7 +35,7 @@ export default function Portfolio(props) {
                 <ShowProject
                     id='1'
                     title='Mykonos Instant Transfer'
-                    description='A Single page application I designed and developed in a couple of hours'
+                    description='A Single page application I designed and developed in a couple of hours.I used a Wordpress-like theme and rushed it using public domain images.'
                     websiteImage={mykonos}
                     websiteImage2={mykonos2}
                     gitHub={'https://github.com/DionysisP/mykonosProject'}
@@ -52,8 +52,8 @@ export default function Portfolio(props) {
                     */}
                 <ShowProject
                     id='2'
-                    title='DP Portfolio'
-                    description='My personal online portfolio you are currently seeing. Designed in Figma and developed with React'
+                    title='My Portfolio'
+                    description='The very page you are looking right now. This is my first attempt of using React. I designed the layout in Figma.'
                     websiteImage={dpDesk}
                     websiteImage2={dpMob}
                 />
@@ -66,8 +66,8 @@ export default function Portfolio(props) {
                 <Logos logo={webAtClass} desc='Web@Class is an online classroom "simulation".' />
                 <Logos logo={elida} desc='Navigation gauntlet for visually impaired people' />
                 <Logos logo={eveningJam} desc='Evening Jam is an Jazz/Blues band from Larisa' />
-                <Logos logo={at} desc='Alexanter Tsapo' />
-                <Logos logo={bell} desc='Just a logo a designed' />
+                <Logos logo={at} desc='Alexanter Tsapo Logo' />
+                <Logos logo={bell} desc='While fooling around on Adobe Illustrator, I suddenly came up with this logo. Cannot really tell what this is about but it reminds me a bell in a strange way. ' />
                 <Logos logo={martini} desc='Greek music band from Thesaloniki'/>
             </div>
 
