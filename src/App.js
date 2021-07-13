@@ -53,7 +53,7 @@ function App() {
         <Route path={'/project/1'} exact>
           <Project
             title='Mykonos Instant Transfer'
-            desc="A Single page application I designed and developed in a couple of hours.I used a Wordpress-like theme and rushed it using public domain images "
+            desc="A Single page application I designed and developed in a couple of hours.I used a Wordpress-like theme and rushed it using public domain images."
             url={'http://mykonos-instant-transfer.com/'}
             technologies={'HTML, CSS, JQuery'}
             git={'https://github.com/DionysisP/mykonosProject'}
@@ -73,7 +73,7 @@ function App() {
         <Route path={'/project/2'} exact>
           <Project
             title='DP'
-            desc="A Single page application I designed and developed in a couple of hours.I used a Wordpress-like theme and rushed it using public domain images "
+            desc="The very page you are looking right now. This is my first attempt of using React. I designed the layout in Figma."
             url={''}
             technologies={'React, CSS'}
             git={'https://github.com/DionysisP/Portfolio'}
