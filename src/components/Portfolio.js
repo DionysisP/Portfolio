@@ -40,7 +40,7 @@ export default function Portfolio(props) {
                     websiteImage2={mykonos2}
                     gitHub={'https://github.com/DionysisP/mykonosProject'}
                 />
-
+                {/*
                 <ShowProject
                     id='2'
                     title='Imagym'
@@ -49,9 +49,9 @@ export default function Portfolio(props) {
                     websiteImage2={imagym}
                     gitHub={'https://github.com/DionysisP/gym_website'}
                 />
-
+                    */}
                 <ShowProject
-                    id='3'
+                    id='2'
                     title='DP Portfolio'
                     description='My personal online portfolio you are currently seeing. Designed in Figma and developed with React'
                     websiteImage={dpDesk}

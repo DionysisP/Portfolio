@@ -59,7 +59,7 @@ function App() {
             git={'https://github.com/DionysisP/mykonosProject'}
             websiteImg={mykonos} />
         </Route>
-
+        {/*
         <Route path={'/project/2'} exact>
           <Project
             title='Imagym'
@@ -69,8 +69,8 @@ function App() {
             git={'https://github.com/DionysisP/gym_website'}
             websiteImg={imagym} />
         </Route>
-
-        <Route path={'/project/3'} exact>
+          */}
+        <Route path={'/project/2'} exact>
           <Project
             title='DP'
             desc="A Single page application I designed and developed in a couple of hours.I used a Wordpress-like theme and rushed it using public domain images "
