@@ -9,7 +9,7 @@ export default function Modal(props) {
             <img className={style.logo} src={props.image} alt='' />
             {/*show website if available*/}
             <img className={style.website} src={props.image2} />
-            <p>{props.desc}</p>
+            <p className={style.logoDesc}>{props.desc}</p>
         </div>
     );
 }
