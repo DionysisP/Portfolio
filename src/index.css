@@ -61,6 +61,9 @@ body{
   margin-top: -20px;
 }
 
+.cv{
+  cursor: pointer;
+}
 @media screen and (min-width: 1024px){
 
   .wrapper2{
