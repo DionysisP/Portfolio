@@ -29,7 +29,7 @@ export default function Project(props) {
 
         <div className="wrapper2" style={{ 'paddingTop': '64px' }}>
 
-            <h1>{props.title}</h1>
+            <h1 className={classes.title}>{props.title}</h1>
             <div className={classes.back}><img src={arrow} alt='arrow' /><Link to={'/Portfolio'}> Back to Projects</Link></div>
             <div className={classes.mainContainer}>
 

@@ -87,7 +87,7 @@
 /* Desktop Responsive */
 @media screen and (max-width: 1024px){
 
-    h1{
+    .title{
         font-size: 48px;
     }
     .back{
@@ -128,7 +128,7 @@
 
 @media screen and (max-width: 768px){
 
-    h1{
+    .title{
         font-size: 38px;
     }
     .back{
@@ -169,7 +169,7 @@
 
 @media screen and (max-width: 568px){
 
-    h1{
+    .title{
         font-size: 28px;
     }
     .back{

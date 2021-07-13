@@ -16,7 +16,7 @@ export default function Homepage(){
 
                 <img className={classes.portrait} src={portrait} alt="Portrait"/>
                 <p>Hello!<br/>My name is <span>Dionysis Patsiouras</span>, I am passionate </p>
-                <h1>DEVELOPER / DESIGNER</h1>
+                <h1 className={classes.myTitle}>DEVELOPER / DESIGNER</h1>
                 
                 <p className={classes.scrollDown}>Scroll down to see more</p>
                 <p className={classes.swipeDown}>Swipe down to see more</p>
