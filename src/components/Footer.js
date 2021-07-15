@@ -2,7 +2,7 @@ export default function Contact(props){
     return(
         <div className="wrapper" style={{'background' : '#454545'}}>
             
-            <h1 style={{'color' : 'white'}}>{props.title}</h1>
+            <h1 style={{'color' : 'white'}}>Contact</h1>
 
             <p style={{'paddingTop' : '64px'}}>+30 697 196 1578</p>
             <p>dion.patsiouras@gmail.com</p>

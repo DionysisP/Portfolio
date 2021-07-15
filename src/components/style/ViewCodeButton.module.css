@@ -2,11 +2,11 @@
     border:none;
     background-color: #F81783;
     color:white;
+    transition: 0.7s;
 }
 .btn:hover{
     cursor:pointer;
     background-color:black;
-    transition: 0.7s;
 }
 
 .icon{

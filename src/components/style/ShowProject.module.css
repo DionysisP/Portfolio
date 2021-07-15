@@ -9,6 +9,8 @@
 
 .btn:hover{
     transition: 0.7s;
+    background-color:black;
+    
 }
 .btn::after{
     background-color: red;
@@ -76,12 +78,12 @@
         color:white;
         margin:20px 2.5px 0 2.5px;
         font-size:18px;
+        transition: 0.7s;
     }
 
 
     .btn:hover{
         cursor:pointer;
-        background-color:black;
     }
 
  

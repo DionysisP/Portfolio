@@ -19,7 +19,7 @@ export default function HowISeeMyself(props){
                 </div>
 
                 <div className={classes2.bar}>
-                    <label>UX Design</label>
+                    <label>UX / UI</label>
                     <div className={classes2.progress}>
                         <div style={{'width' : '80%'}} className={classes2.progressBar} ></div>
                     </div>

@@ -31,7 +31,7 @@ export default function Cv(props){
 
     return(
         <div className="wrapper2" style={{'paddingTop' : '64px'}}>
-            <h1>{props.title}</h1>
+            <h1>Curriculum Vitae</h1>
             {/*<p className={classes.paragraph}>Download pdf <span>here</span></p> */}
 
             <Table title='Education' image={college}/>

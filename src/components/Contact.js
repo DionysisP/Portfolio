@@ -7,7 +7,7 @@ import location from '../images/location.svg';
 export default function Contact(props){
     return(
         <div className='wrapper2' style={{'paddingTop' : '64px'}}>
-            <h1>{props.title}</h1>
+            <h1>Contact</h1>
             <div className={classes.container}>
                 <div className={classes.item}>
                 <img src={phone} alt='Phone Number'/>

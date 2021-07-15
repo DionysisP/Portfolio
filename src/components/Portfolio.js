@@ -4,10 +4,8 @@ import ShowProject from './portfolioComponents/ShowProject';
 import Logos from './portfolioComponents/Logos';
 import style from './style/Portfolio.module.css';
 
-import mykonos from '../images/mykonos.png';
-import mykonos2 from '../images/mykonos2.png';
-import imagym from '../images/imagym.png';
-
+import mykonos from '../images/mykonos.jpg';
+import mykonos2 from '../images/mykonos2.jpg';
 
 import dpDesk from '../images/dpDesktop.jpg';
 import dpMob from '../images/dpMobile.jpg';
@@ -27,7 +25,7 @@ export default function Portfolio(props) {
 
         <div className="wrapper2" style={{ 'paddingTop': '64px' }}>
 
-            <h1>{props.title}</h1>
+            <h1>Portfolio</h1>
 
             <h5 className={style.projectsTitle}>Web design</h5>
             <div className={style.allProjects}>
@@ -56,6 +54,7 @@ export default function Portfolio(props) {
                     description='The very page you are looking right now. This is my first attempt of using React. I designed the layout in Figma.'
                     websiteImage={dpDesk}
                     websiteImage2={dpMob}
+                    gitHub={'https://github.com/DionysisP/Portfolio'}
                 />
 
             </div>

@@ -15,7 +15,7 @@ export default function AFewWords(props) {
                 So I decided to study <span style={{'color' : 'black'}}>Web Design & Video Games Development</span> at IEK AKMI in Thessaloniki.
                 What I do best is Front-end Development, Logo design and UX/UI. 
             </p>
-            <p style={{ 'paddingTop': '66px' }} className={classes.paragraph}>Find me on LinkedIn : <span><a style={{ "color": "#f81783" }} href="https://www.linkedin.com/in/dionysisp/" target="_blank" rel="noreferrer">Dionysis Patsiouras</a></span></p>
+            <p style={{ 'paddingTop': '100px' }} className={classes.paragraph}>Find me on LinkedIn : <span><a style={{ "color": "#f81783" }} href="https://www.linkedin.com/in/dionysisp/" target="_blank" rel="noreferrer">Dionysis Patsiouras</a></span></p>
         </div>
     );
 

@@ -20,13 +20,14 @@
   background-color: #384264;
   color:white;
   border-radius: 2px;
+  transition: 0.7s;
 }
 
 .portfolioButton:hover{
   cursor: pointer;
   color:white;
   background-color: #f81783;
-  transition: 0.5s;
+  
 }
 
 
