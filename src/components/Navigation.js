@@ -1,12 +1,13 @@
 import React from 'react';
+import BurgerMenu from './menu/BurgerMenu';
 import DesktopMenu from './menu/DesktopMenu';
 import ResponsiveMenu from './menu/ResponsiveMenu';
 
 
-export default function Navigation(){
+export default function Navigation() {
 
-    const [width, setWidth] = React.useState(window.innerWidth);
-    const breakpoint = 769;
+  const [width, setWidth] = React.useState(window.innerWidth);
+  const breakpoint = 769;
 
   React.useEffect(() => {
     /* Inside of a "useEffect" hook add an event listener that updates
