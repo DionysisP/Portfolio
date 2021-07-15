@@ -1,3 +1,69 @@
+.toggle{
+  padding-left:20px;
+  transition: 0.5s;
+
+}
+
+
+
+input{
+  display: none;
+}
+label{
+  margin: 13px 0 0 15px;
+  position: relative;
+  bottom:8px;
+  
+}
+.line{
+  display:flex;
+  flex-direction: row;
+  margin:5px 0 0 22px;
+  width:36px;
+  height:4px;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.line:nth-child(1){
+  position: relative;
+  top:0px;
+}
+
+
+.line:nth-child(3){
+  position: relative;
+  top:0px;
+}
+input:checked ~ * .line:nth-child(1){
+  transform: rotate(45deg);
+  position: relative;
+  top:8px;
+}
+
+
+input:checked ~ * .line:nth-child(3){
+  transform: rotate(-45deg);
+  position: relative;
+  top:-10px;
+
+}
+
+input:checked ~ * .line:nth-child(2){
+  width:0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 @font-face {
   font-family: "Khand";
   src: url(fonts/Khand-Regular.ttf);
