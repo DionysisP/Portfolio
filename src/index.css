@@ -4,20 +4,12 @@
 
 }
 
-
-
 input{
   display: none;
   
 }
 
-label{
-  margin: 13px 0 0 15px;
-  position: relative;
-  width:15px;
-  bottom:8px;
-  cursor: pointer;
-}
+
 .line{
   display:flex;
   flex-direction: row;
@@ -62,11 +54,6 @@ input:checked ~ * .line:nth-child(2){
 
 
 
-
-
-
-
-
 @font-face {
   font-family: "Khand";
   src: url(fonts/Khand-Regular.ttf);
@@ -82,15 +69,11 @@ input:checked ~ * .line:nth-child(2){
 a {
   text-decoration: none;
   color: white;
+  transition: 0.7s;
 }
-a:hover{
-  color: #f81783;
-  transition: 0.5s;
-}
+a:hover{color: #f81783;}
 
-p{
-  color:white;
-}
+p{color:white;}
 
 h1{
   text-transform: uppercase;
@@ -101,19 +84,16 @@ body{
 }
 
 .wrapper, .wrapper2{
- 
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 64px 0 64px 0;
     background-color: white;
+    padding: 64px 0;
 }
 
-.wrapper2{
-  padding: 0px 0 0 0;
-}
+.wrapper2{padding: 0;}
 
 
 .icons svg {
@@ -130,9 +110,8 @@ body{
   margin-top: -20px;
 }
 
-.cv{
-  cursor: pointer;
-}
+.cv{cursor: pointer;}
+
 @media screen and (min-width: 1024px){
 
   .wrapper2{
@@ -145,8 +124,6 @@ body{
     filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
     width: 408px;
   }
-
-
 
 }
 /* Desktop Responsive */
@@ -180,9 +157,6 @@ body{
     filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
     width: 208px;
   }
-  .up{
-    display: none;
-  }
 }
 /* Tablet Responsive */
 
@@ -191,18 +165,12 @@ body{
 
 
 @media screen and (max-width: 568px){
-  .wrapper2{
-    text-align: center;
-    margin-top:62px;
-  }
+  .wrapper2{text-align: center;}
   .cv{
     padding-top: 50px;
     filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
     width: 208px;
   }
 
-  .up{
-    display:none;
-  }
 }
 /* Mobile Responsive */

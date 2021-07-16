@@ -1,5 +1,4 @@
 import React from 'react';
-import BurgerMenu from './menu/BurgerMenu';
 import DesktopMenu from './menu/DesktopMenu';
 import ResponsiveMenu from './menu/ResponsiveMenu';
 

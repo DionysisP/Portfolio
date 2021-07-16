@@ -17,9 +17,7 @@ h4{
     width: 90vw;
 }
 
-.allLogos{
-    padding:50px;
-}
+.allLogos{padding:50px;}
 
 .projectBtn{
     padding:10px;
@@ -38,24 +36,26 @@ h4{
 }
 
 @media screen and (min-width: 1024px){
-.projects{
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    
+    .projects{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
+    .projectsTitle{
+        max-width:1000px;
+        width:75vw;
+    }
 
 }
 /* Desktop Responsive */
 
 
 @media screen and (max-width: 1024px){
-    .projects{
-    
-        display: inline-flex;
-    }
-    
 
+    .projects{display: inline-flex;}
+    .projectsTitle{width:75vw;}
     .projectBtn{
         width:250px;
         margin: 1.5px 0;
@@ -67,17 +67,10 @@ h4{
 
 
 @media screen and (max-width: 768px){
-    h4{
-        font-size: 24px;
-    }
-    
-    .projects{
-
-        display: block;
-    }
-
+    h4{font-size: 24px;}
+    .projects{display: block;}
+    .projectsTitle{width:75vw;}
    
-
     .projectBtn{
         width:250px;
         margin: 1.5px 0;
@@ -85,18 +78,13 @@ h4{
     
 }
 
-/* Mobile Responsive */
+/* Tablet Responsive */
 
 @media screen and (max-width: 568px){
-    h4{
-        font-size: 20px;
-    }
-    
-    .projects{
+    h4{font-size: 20px;}
+    .projects{display: block;}
 
-        display: block;
-    }
-
+    .projectsTitle{width:300px;}
 
 
     .projectBtn{
@@ -104,9 +92,7 @@ h4{
         margin: 1.5px 0;
     }
     
-    .allLogos{
-        padding:0px;
-    }
+    .allLogos{padding:0px;}
 }
 
 /* Mobile Responsive */

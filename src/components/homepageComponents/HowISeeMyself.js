@@ -12,35 +12,35 @@ export default function HowISeeMyself(props){
             <div className={classes2.allbars}>
 
                 <div className={classes2.bar}>
-                    <label>Front - End</label>
+                    <label className={classes2.skill}>Front - End</label>
                     <div className={classes2.progress}>
                         <div style={{'width' : '80%'}} className={classes2.progressBar} ></div>
                     </div>
                 </div>
 
                 <div className={classes2.bar}>
-                    <label>UX / UI</label>
+                    <label className={classes2.skill} >UX / UI</label>
                     <div className={classes2.progress}>
                         <div style={{'width' : '80%'}} className={classes2.progressBar} ></div>
                     </div>
                 </div>
 
                 <div className={classes2.bar}>
-                    <label>Back - End</label>
+                    <label className={classes2.skill} >Back - End</label>
                     <div className={classes2.progress}>
                         <div style={{'width' : '70%'}} className={classes2.progressBar} ></div>
                     </div>
                 </div>
 
                 <div className={classes2.bar}>
-                    <label>Logo - Graphics</label>
+                    <label className={classes2.skill}>Logo - Graphics</label>
                     <div className={classes2.progress}>
                         <div style={{'width' : '75%'}} className={classes2.progressBar} ></div>
                     </div>
                 </div>
 
                 <div className={classes2.bar}>
-                    <label>3D Modeling</label>
+                    <label className={classes2.skill}>3D Modeling</label>
                     <div className={classes2.progress}>
                         <div style={{'width' : '60%'}} className={classes2.progressBar} ></div>
                     </div>

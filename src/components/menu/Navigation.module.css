@@ -1,20 +1,17 @@
-.burger {
-    width: 50px;
-    height: 50px;
+.burgerLabel{
     margin: 13px 0 0 15px;
-
-}
-
-
-
-@media screen and (min-width: 1024px){
-
-.burger{
-    display: none;
-}
+    position: relative;
+    width:15px;
+    bottom:8px;
+    cursor: pointer;
+  }
 
 .topBarBackground{
     background-color: #384264;
+    border-bottom: 1px solid white;
+    z-index: 1;
+    position: fixed;
+    top:0;
     width: 100%;
 }
 .topBar {
@@ -25,96 +22,30 @@
     border-bottom: 1px solid white;
 }
 
-.topBar ul{
-    display: inline-flex;
-}
-
-
 li{
     list-style-type: none;
-    font-size:24px;
-    padding: 40px 75px;
+    font-size:18px;
+    padding: 40px 35px;
     text-transform: uppercase;
 }
-
-}
-/*Desktop Responsive*/
-@media screen and (max-width: 1024px){
-
-    .burger{
-        display: none;
-    }
-    
-    .topBarBackground{
-        background-color: #384264;
-        width: 100%;
-    }
-    .topBar {
-        width: 100%;
-        color: white;
-        margin: 0 auto;
-        text-align: center;
-        border-bottom: 1px solid white;
-    }
-    
-    .topBar ul{display:inline-flex;}
-    
-    
-    li{
-        list-style-type: none;
-        font-size:18px;
-        padding: 40px 35px;
-        text-transform: uppercase;
-    }
-
-    
-}
-
-/* Laptop Responsive */
-
-
+.topBar ul{display: inline-flex;}
 
 
 @media screen and (max-width: 768px) {
-    .burger{
-        display: block;
-    }
-    
-    .topBar{
-        display: none;
-    }
-    
-    .topBarBackground{
-        border-bottom: 1px solid white;
-        padding-bottom: 12px;
-        position: fixed;
-        top:0;
-        z-index: 1;
-     
-    }
+
+    .topBar{display: none;}
+    .topBarBackground{height:86px;}
+    .burgerLabel{bottom:-4px;}
 }
+/* Table Responsive */
 
 
 @media screen and (max-width: 568px){
 
-.burger{
-    display: block;
-}
-
-.topBar{
-    display: none;
-}
-
-.topBarBackground{
-    border-bottom: 1px solid white;
-    padding-bottom: 12px;
-    position: fixed;
-    top:0;
-    z-index: 1;
-  
-}
+    .topBar{display: none;}
+    .topBarBackground{height: 64px;}
+    .burgerLabel{bottom:8px;}
 
 }
 
 /*Mobile Responsive*/
-

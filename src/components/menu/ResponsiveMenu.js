@@ -68,7 +68,7 @@ export default function ResponsiveMenu() {
             <div className={classes.topBarBackground}>
 
                 <input type='checkbox' id="menuButton" className={'toggle'} onClick={() => setShowMenu(!showMenu)} checked={!checked} onChange={() => setChecked(!checked)} />
-                <label htmlFor="menuButton">
+                <label className={classes.burgerLabel} htmlFor="menuButton">
                     <span className='line'></span>
                     <span className='line'></span>
                     <span className='line'></span>

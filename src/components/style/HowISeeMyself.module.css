@@ -12,7 +12,7 @@
     padding:22px 0 22px 0;
 }
 
-label{
+.skill{
     font-size: 26px;
     color:white;
 }
@@ -30,7 +30,7 @@ label{
 
 @media screen and (max-width: 568px){
 
-label{
+.skill{
     font-size: 14px;
 }
 

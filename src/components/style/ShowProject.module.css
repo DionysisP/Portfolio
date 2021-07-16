@@ -9,11 +9,8 @@
 
 .btn:hover{
     transition: 0.7s;
-    background-color:black;
+    background-color:#454545;
     
-}
-.btn::after{
-    background-color: red;
 }
 
 
