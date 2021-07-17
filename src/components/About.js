@@ -13,7 +13,7 @@ import work from '../images/work.svg'
 import settings from '../images/settings.svg'
 
 
-export default function Cv(props) {
+export default function Cv() {
 
     return (
 
