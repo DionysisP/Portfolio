@@ -1,7 +1,6 @@
 import style from '../style/Portfolio.module.css'
 import ShowProject from './ShowProject';
 
-
 import mykonos from '../../images/mykonos.jpg'
 import mykonos2 from '../../images/mykonos2.jpg'
 

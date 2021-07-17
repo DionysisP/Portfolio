@@ -1,10 +1,9 @@
 import classes from '../style/SomeOfMyWork.module.css';
 import { Link } from 'react-router-dom';
 
-import Logos from '../portfolioComponents/Logos';
+
 import ShowProject from '../portfolioComponents/ShowProject';
 
-import webAtClass from '../portfolioComponents/images/webAtClass.svg';
 import mykonos from '../../images/mykonos.jpg';
 
 
@@ -15,7 +14,7 @@ export default function SomeOfMyWork(props) {
         <div className="wrapper">
             <h1>{props.title}</h1>
             <div className={classes.display}>
-            <Logos logo={webAtClass} desc='Web@Class is an online classroom "simulation".' />
+         
             </div>
             <ShowProject
                     id='1'

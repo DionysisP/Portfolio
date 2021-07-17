@@ -25,7 +25,7 @@ export default function Cv(props) {
             <div>
                 {/* opens modal and close button*/}
                 <img className={style2.icon} src={close} alt="icon" onClick={() => setShowModal(false)} />
-                <Modal image2={cv} status={showModal} />
+                {/* <Modal image2={cv} status={showModal} /> */}
             </div>
         );
     }
@@ -56,7 +56,7 @@ export default function Cv(props) {
 
             <div style={{ 'padding': '75px 0' }}>
                 <p className={classes.paragraph}>Download pdf <a style={{ 'color': '#f81783' }} href={pdf} download>here</a></p>
-                <img className="cv" src={cv} alt="Curriculum Vitae" onClick={() => setShowModal(!showModal)} />
+                <img className="cv" src={cv} alt="Curriculum Vitae" />
             </div>
         </div>
     );

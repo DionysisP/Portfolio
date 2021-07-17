@@ -8,7 +8,7 @@ import style from './style/Portfolio.module.css';
 
 export default function Portfolio() {
 
-    const [active, setActive] = useState(1);
+    const [active, setActive] = useState(2);
 
     var currentlyDisplayed
 

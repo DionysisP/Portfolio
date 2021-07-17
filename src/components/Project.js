@@ -40,9 +40,9 @@ export default function Project(props) {
                     <ViewCodeButton url={props.git} />
                 </div>
 
-                <div className={classes.container2} onClick={() => setShowModal(!showModal)}>
+                <div className={classes.container2} >
                     <img className={classes.websiteImg} src={props.websiteImg} alt='website' />
-                    <img className={classes.zoom} src={zoom} alt='zoom' />
+                    {/* <img className={classes.zoom} src={zoom} alt='zoom' /> */}
                 </div>
             </div>
         </div>
