@@ -1,3 +1,24 @@
+.projectList{
+    display: inherit;
+    border-bottom: 1px solid grey;
+    max-width:1000px;
+    width:80vw;
+    margin: 0 0 50px 0;
+}
+
+.projectList li{
+    text-transform: capitalize;
+    padding:15px 20px;
+    cursor: pointer;
+}
+
+
+.active{
+    padding-bottom: 6px;
+    border-bottom: 3px solid #F81783;
+}
+
+
 h4{
     font-size: 24px;
     padding:20px 0;
@@ -17,7 +38,13 @@ h4{
     width: 90vw;
 }
 
-.allLogos{padding:50px;}
+.allLogos{
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:50px;
+    width: 1000px;
+}
 
 .projectBtn{
     padding:10px;
@@ -47,6 +74,10 @@ h4{
         max-width:1000px;
         width:75vw;
     }
+    
+    .projectList{width:80vw;}
+    .allLogos{padding:0; max-width: 1000px;}
+    
 
 }
 /* Desktop Responsive */
@@ -60,7 +91,8 @@ h4{
         width:250px;
         margin: 1.5px 0;
     }
-    
+    .projectList{width:80vw;}
+    .allLogos{padding:0;width:auto;}
     }
 /* Laptop Responsive */
 
@@ -69,13 +101,14 @@ h4{
 @media screen and (max-width: 768px){
     h4{font-size: 24px;}
     .projects{display: block;}
+    .projectList{width:auto;}
     .projectsTitle{width:75vw;}
-   
+    
     .projectBtn{
         width:250px;
         margin: 1.5px 0;
     }
-    
+    .allLogos{padding:0;width:80vw;}
 }
 
 /* Tablet Responsive */
@@ -83,7 +116,7 @@ h4{
 @media screen and (max-width: 568px){
     h4{font-size: 20px;}
     .projects{display: block;}
-
+    .projectList{width:auto;}
     .projectsTitle{width:300px;}
 
 
@@ -92,7 +125,7 @@ h4{
         margin: 1.5px 0;
     }
     
-    .allLogos{padding:0px;}
+    .allLogos{padding:0px;width:300px;}
 }
 
 /* Mobile Responsive */

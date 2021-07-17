@@ -1,13 +1,13 @@
 
 import classes from '../style/AFewWords.module.css';
 
-export default function AFewWords(props) {
+export default function AFewWords() {
 
     const currentDate = new Date().getFullYear();
 
     return (
         <div className="wrapper">
-            <h1>{props.title}</h1>
+            <h1>A Few Words</h1>
 
             <p className={classes.paragraph}>
                 I was born and grew up in Larissa, Thessaly.

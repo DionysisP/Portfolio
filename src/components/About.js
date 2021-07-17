@@ -1,35 +1,19 @@
-import classes from './style/AFewWords.module.css';
-import { useState } from 'react';
-import Modal from './portfolioComponents/Modal';
-import close from './portfolioComponents/images/close.svg';
-import style2 from './style/Modal.module.css';
+import classes from './style/AFewWords.module.css'
+import style from './style/About.module.css'
 
-import cv from '../images/cv.jpg';
-import Table from './portfolioComponents/Table';
-import Insert from './portfolioComponents/Insert';
-import Skills from './portfolioComponents/Skills';
-
-import pdf from '../images/Dionysis-Patsiouras-CV.pdf';
-
-import college from '../images/college.svg';
-import work from '../images/work.svg';
-import settings from '../images/settings.svg';
+import cv from '../images/cv.jpg'
+import Table from './portfolioComponents/Table'
+import Insert from './portfolioComponents/Insert'
 
 
-export default function Cv(props) {
+import pdf from '../images/Dionysis-Patsiouras-CV.pdf'
 
-    const [showModal, setShowModal] = useState(false);
+import college from '../images/college.svg'
+import work from '../images/work.svg'
+import settings from '../images/settings.svg'
 
-    if (showModal) {
-        return (
-            <div>
-                {/* opens modal and close button*/}
-                <img className={style2.icon} src={close} alt="icon" onClick={() => setShowModal(false)} />
-                <Modal image2={cv} status={showModal} />
-            </div>
-        );
-    }
 
+export default function Cv() {
 
     return (
 
@@ -52,11 +36,39 @@ export default function Cv(props) {
 
 
             <Table title='Skills' image={settings} />
-            <Skills />
+            <div className={style.list}>
+            <ul>
+                <li className={style.listTitle}>Front - End</li>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>SASS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>JQuery</li>
+                <li>React</li>
+                <li>Wordpress</li>
+            </ul>
+
+            <ul>
+                <li className={style.listTitle}>Back - End</li>
+                <li>PHP</li>
+                <li>Laravel</li>
+                <li>MySQL</li>
+            </ul>
+
+            <ul>
+                <li className={style.listTitle}>Design</li>
+                <li>Figma</li>
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>Adobe XD</li>
+            </ul>
+        
+        </div>
 
             <div style={{ 'padding': '75px 0' }}>
                 <p className={classes.paragraph}>Download pdf <a style={{ 'color': '#f81783' }} href={pdf} download>here</a></p>
-                <img className="cv" src={cv} alt="Curriculum Vitae" onClick={() => setShowModal(!showModal)} />
+                <img className="cv" src={cv} alt="Curriculum Vitae" />
             </div>
         </div>
     );

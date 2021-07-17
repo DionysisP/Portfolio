@@ -1,14 +1,14 @@
 import classes from '../style/AFewWords.module.css';
 import classes2 from '../style/HowISeeMyself.module.css';
-export default function HowISeeMyself(props){
+
+export default function HowISeeMyself(){
 
     return(
         <div className="wrapper" style={{'background':'#384264'}}>
-            <h1 style={{'color':'white'}}>{props.title}</h1>
+            <h1 style={{'color':'white'}}>How I See Myself</h1>
             <p style={{'color': 'white', 'textAlign' : 'center'}}className={classes.paragraph}>
                 Althought I call myself a Front-end Developer I am also interested in Logo Design, 3D Modeling and even Back-end.</p>
 
-        
             <div className={classes2.allbars}>
 
                 <div className={classes2.bar}>
