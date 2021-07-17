@@ -11,7 +11,7 @@ export default function Contact(props){
             <div className={classes.container}>
                 <div className={classes.item}>
                 <img src={phone} alt='Phone Number'/>
-                    <p>+30 697 196 1578</p>
+                    <a href="tel:6971961578"><p>+30 697 196 1578</p></a>
                 </div>
 
                 <div className={classes.item}>

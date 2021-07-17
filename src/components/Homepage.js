@@ -25,9 +25,9 @@ export default function Homepage(){
                 </svg>
             
             </div>
-            <AFewWords title='A few words'/>
-            <HowISeeMyself title='How I see myself'/>
-            <SomeOfMyWork title='Some of my work'/>
+            <AFewWords />
+            <HowISeeMyself />
+            <SomeOfMyWork />
 
         </React.Fragment>
     );
