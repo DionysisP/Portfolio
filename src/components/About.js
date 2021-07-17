@@ -1,6 +1,5 @@
 import classes from './style/AFewWords.module.css';
 import { useState } from 'react';
-import Modal from './portfolioComponents/Modal';
 import close from './portfolioComponents/images/close.svg';
 import style2 from './style/Modal.module.css';
 
