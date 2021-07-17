@@ -1,3 +1,35 @@
+.projectList{
+    display: inherit;
+    
+    border-bottom: 1px solid grey;
+    width:1000px;
+}
+
+.projectList li{
+    text-transform: capitalize;
+    padding:15px 20px;
+    cursor: pointer;
+}
+
+
+.active{
+    padding-bottom: 6px;
+    border-bottom: 3px solid #F81783;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h4{
     font-size: 24px;
     padding:20px 0;
