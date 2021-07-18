@@ -1,0 +1,132 @@
+.projectList
+    display: inherit
+    border-bottom: 1px solid grey
+    max-width: 1000px
+    width: 80vw
+    margin: 0 0 50px 0
+
+.projectList li
+    text-transform: capitalize
+    padding: 15px 20px
+    cursor: pointer
+
+.active
+    padding-bottom: 6px
+    border-bottom: 3px solid #F81783
+
+h4
+    font-size: 24px
+    padding: 20px 0
+
+.projectsTitle
+    width: 75vw
+    text-align: left
+    border-bottom: 1px solid #EBEBEB
+    font-weight: 100
+    font-size: 20px
+
+.allProjects
+    display: inline-flex
+    flex-wrap: wrap
+    justify-content: center
+    width: 90vw
+
+.allLogos
+    display: inline-flex
+    flex-wrap: wrap
+    justify-content: center
+    padding: 50px
+    width: 1000px
+
+.projectBtn
+    padding: 10px
+    border: none
+    width: 200px
+    background-color: #384264
+    color: white
+    font-size: 16px
+
+.gitIcon
+    float: right
+    width: 22.5px
+    height: 22.5px
+    fill: white
+
+@media screen and (min-width: 1024px)
+
+    .projects
+        display: inline-flex
+        flex-wrap: wrap
+        justify-content: center
+
+    .projectsTitle
+        max-width: 1000px
+        width: 75vw
+
+    .projectList
+        width: 80vw
+    .allLogos
+        padding: 0
+        max-width: 1000px
+
+// Desktop Responsive 
+
+@media screen and (max-width: 1024px)
+
+    .projects
+        display: inline-flex
+
+    .projectTitle
+        width: 75vw
+    .projectBtn
+        width: 250px
+        margin: 1.5px 0
+
+    .projectList
+        width: 80vw
+
+    .allLogos
+        padding: 0
+        width: auto
+
+// Laptop Responsive
+
+@media screen and (max-width: 768px)
+    h4
+        font-size: 24px
+    .projects
+        display: block
+    .projectList
+        width: auto
+    .projectsTitle
+        width: 75vw
+
+    .projectBtn
+        width: 250px
+        margin: 1.5px 0
+
+    .allLogos
+        padding: 0
+        width: 80vw
+
+// Tablet Responsive 
+
+@media screen and (max-width: 568px)
+    h4
+        font-size: 20px
+    .projects
+        display: block
+    .projectList
+        width: auto
+    .projectsTitle
+        width: 300px
+
+    .projectBtn
+        width: 250px
+        margin: 1.5px 0
+
+    .allLogos
+        padding: 0px
+        width: 300px
+
+// Mobile Responsive 
