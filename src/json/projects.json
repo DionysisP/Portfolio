@@ -1,0 +1,20 @@
+[
+    {
+        "id" : 1,
+        "title" : "Mykonos Instant Transfer",
+        "description" : "A Single page application I designed and developed in a couple of hours.I used a Wordpress-like theme and rushed it using public domain images.",
+        "url" : "http://mykonos-instant-transfer.com/",
+        "technologies" : ["HTML", "CSS", "JQuery"],
+        "github" : "https://github.com/DionysisP/mykonosProject",
+        "image" : "mykonos"
+    },
+    {
+        "id" : 2,
+        "title" : "My Portfolio",
+        "description" : "The very page you are looking right now. This is my first attempt of using React. I designed the layout in Figma.",
+        "url" : "http://dionysis-patsiouras.com/",
+        "technologies" : ["ReactJS", "SASS", "HTML"],
+        "github" : "https://github.com/DionysisP/Portfolio",
+        "image" : "dpDesktop"
+    }
+]

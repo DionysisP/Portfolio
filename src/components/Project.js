@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
 
 import classes from '../style/Project.module.css'
 import style2 from '../style/Modal.module.css'
@@ -10,8 +9,6 @@ import ViewCodeButton from './portfolioComponents/ViewCodeButton'
 
 import close from '../../src/images/icons/close.svg'
 import arrow from '../../src/images/icons/arrow.svg'
-
-
 
 
 export default function Project(props) {
@@ -45,7 +42,7 @@ export default function Project(props) {
                 </div>
 
                 <div className={classes.container2} >
-                    <img className={classes.websiteImg} src={props.websiteImg} alt='website' />
+                    <img className={classes.websiteImg} src={require('../images/' + props.websiteImg + '.jpg').default} alt='website' />
                     {/* <img className={classes.zoom} src={zoom} alt='zoom' /> */}
                 </div>
             </div>

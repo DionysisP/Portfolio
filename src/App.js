@@ -1,17 +1,16 @@
-import { Route, Switch } from 'react-router-dom';
-import Navigation from "./components/Navigation";
-import Homepage from './components/Homepage.js';
-import ScrollToTop from './components/ScrollToTop';
-import Footer from './components/Footer';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+import { Route, Switch } from 'react-router-dom'
+import Navigation from "./components/Navigation"
+import Homepage from './components/Homepage'
+import ScrollToTop from './components/ScrollToTop'
+import Footer from './components/Footer'
+import About from './components/About'
+import Portfolio from './components/Portfolio'
+import Contact from './components/Contact'
+import Project from './components/Project'
 
-import Project from './components/Project.js';
-
+import projectsData from '../src/json/projects.json'
 
 import mykonos from './images/mykonos.jpg';
-
 import dpDesk from './images/dpDesktop.jpg';
 
 
@@ -50,6 +49,22 @@ export default function App() {
           <Contact />
           
         </Route>
+
+          {projectsData.map(show => {
+              return (
+                <Route key={show.id} path={'/project/' + show.id} exact>
+                  <Project 
+                    title = {show.title}
+                    desc = {show.description}
+                    url = {show.url}
+                    technologies = {show.technologies}
+                    git = {show.github}
+                    websiteImg = {show.image}
+                  />
+                </Route>
+              );
+          })}
+
 
         <Route path={'/project/1'} exact>
           <Project
