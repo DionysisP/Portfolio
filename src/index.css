@@ -1,100 +1,109 @@
-.toggle{
-  padding-left:20px;
-  transition: 0.5s;
-
-}
-
-input{
-  display: none;
-  
-}
-
-
-.line{
-  display:flex;
-  flex-direction: row;
-  margin:5px 0 0 22px;
-  width:36px;
-  height:4px;
-  background-color: white;
-  transition: 0.5s;
-}
-
-.line:nth-child(1){
-  position: relative;
-  top:0px;
-}
-
-
-.line:nth-child(3){
-  position: relative;
-  top:0px;
-}
-input:checked ~ * .line:nth-child(1){
-  transform: rotate(45deg);
-  position: relative;
-  top:8px;
-}
-
-
-input:checked ~ * .line:nth-child(3){
-  transform: rotate(-45deg);
-  position: relative;
-  top:-10px;
-
-}
-
-input:checked ~ * .line:nth-child(2){
-  width:0px;
-
-}
-
-
-
-
-
-
 @font-face {
   font-family: "Khand";
   src: url(fonts/Khand-Regular.ttf);
 }
 
-*{
-  margin: 0px;
-  padding: 0px;
+* {
+  margin: 0;
+  padding: 0;
   font-family: "Khand";
-  
+}
+
+body {
+  background-color: #384264;
+}
+
+input {
+  display: none;
+}
+
+.toggle {
+  padding-left: 20px;
+}
+
+.line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 5px 0 0 22px;
+  width: 36px;
+  height: 4px;
+  background-color: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.line:nth-child(1), .line:nth-child(3) {
+  position: relative;
+  top: 0px;
+}
+
+input:checked ~ * .line:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 8px;
+}
+
+input:checked ~ * .line:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  position: relative;
+  top: -10px;
+}
+
+input:checked ~ * .line:nth-child(2) {
+  width: 0px;
+  background: transparent;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
+  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
-a:hover{color: #f81783;}
 
-p{color:white;}
+a:hover {
+  color: #F81783;
+}
 
-h1{
+p {
+  color: #ffffff;
+}
+
+h1 {
   text-transform: uppercase;
-  padding-bottom:66px;
-}
-body{
-  background-color: #384264;
+  padding: 0 0 66px 0;
 }
 
-.wrapper, .wrapper2{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    padding: 64px 0;
+.wrapper, .wrapper2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  padding: 64px 0;
 }
 
-.wrapper2{padding: 0;}
-
+.wrapper2 {
+  padding: 0;
+  text-align: center;
+}
 
 .icons svg {
   margin: 30px 10px 71px 10px;
@@ -102,75 +111,21 @@ body{
   height: 32px;
 }
 
-
-.up{
-  display: block;
-  position: absolute;
-  right: 200px;
-  margin-top: -20px;
-}
-
-.cv{cursor: pointer;}
-
-@media screen and (min-width: 1024px){
-
-  .wrapper2{
-    text-align: center;
-    margin-top:0;
-  }
-
-  .cv{
-    padding-top: 50px;
-    filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
-    width: 408px;
-  }
-
-}
-/* Desktop Responsive */
-
-
-@media screen and (max-width: 1024px){
-
-  .wrapper2{
-    text-align: center;
-    margin-top:0;
-  }
-
-  .cv{
-    padding-top: 50px;
-    filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
-    width: 408px;
-  }
-
-}
-/* Laptop Responsive */
-
-
-
-@media screen and (max-width: 768px){
-  .wrapper2{
-    text-align: center;
-    margin-top:62px;
-  }
-  .cv{
-    padding-top: 50px;
-    filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
-    width: 208px;
+@media screen and (min-width: 1024px) {
+  .wrapper2 {
+    margin-top: 0;
   }
 }
-/* Tablet Responsive */
 
-
-
-
-
-@media screen and (max-width: 568px){
-  .wrapper2{text-align: center;}
-  .cv{
-    padding-top: 50px;
-    filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
-    width: 208px;
+@media screen and (max-width: 1024px) {
+  .wrapper2 {
+    margin-top: 0;
   }
-
 }
-/* Mobile Responsive */
+
+@media screen and (max-width: 768px) {
+  .wrapper2 {
+    margin-top: 62px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

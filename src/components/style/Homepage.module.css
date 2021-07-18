@@ -1,136 +1,114 @@
-.portrait{
-    filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
-    margin-bottom: 47px;
-    z-index: -1;
+.portrait {
+  -webkit-filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
+  margin-bottom: 47px;
+  z-index: -1;
 }
 
-.popUp{
-    position: absolute;
-    margin-bottom: 730px;
-    margin-left:190px;
-    transition: 1s;
-   
-    
-}
-.cloud{
-    position: absolute;
-    padding:20px 40px;
-    border-radius: 100%;
-    background-color: white;
-    color: #384264;
-    transition: 1s;
-}
-.tail{
-    position: absolute;
-    width: 0; 
-    height: 0; 
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 40px solid rgb(255, 255, 255);
-    transform: rotate(45deg);
-    margin-top:36px;
-    margin-right:8px;
-    z-index: -1;
+span {
+  color: #F81783;
 }
 
-p{color:white;}
-span{color: #F81783;}
-h1{font-weight: 200;}
-.container{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 110px 0 138px 0;
-    color: white;
-}     
+h1 {
+  font-weight: 200;
+}
 
-.scrollDown, .swipeDown{
-    margin: 123px 0 18px 0;
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  align-items: center;
+  margin: 100px 0 138px 0;
+  color: #ffffff;
+}
+
+.scrollDown, .swipeDown {
+  margin: 123px 0 18px 0;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 1024px) {
+  .portrait {
+    width: 240px;
+    height: 240px;
+  }
+  p {
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 52.3px;
+  }
+  .swipeDown {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .portrait {
+    width: 240px;
+    height: 240px;
+  }
+  p {
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 52.3px;
+  }
+  .swipeDown {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portrait {
+    width: 240px;
+    height: 240px;
+  }
+  p {
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 52.3px;
+  }
+  .scrollDown {
+    display: none;
+  }
+  .swipeDown {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .introduction {
+    margin: 80px 0 138px 0;
+  }
+  .portrait {
+    width: 154px;
+    height: 154px;
+  }
+  p {
     font-size: 18px;
+  }
+  h1 {
+    font-size: 39.4px;
+  }
+  .scrollDown {
+    display: none;
+  }
+  .swipeDown {
+    display: block;
+    margin: 123px 0 18px 0;
+    font-size: 14px;
+  }
 }
-
-
-
-@media screen and (min-width: 1024px){
-
-    .portrait{
-        width: 240px;
-        height: 240px;
-    }
-
-    p{font-size: 24px;}
-    h1{font-size: 52.3px;}
-
-    .swipeDown{display: none;}
-
-
-}
-/*Desktop Responsive */
-
-
-@media screen and (max-width: 1024px){
-
-    .portrait{
-        width: 240px;
-        height: 240px;
-    }
-    
-    p{font-size: 24px;}
-    h1{font-size: 52.3px;}
-    
-    .swipeDown{display: none;}
-    
-    
-}
-/*Laptop Responsive */
-
-
-@media screen and (max-width: 768px){
-
-    .popUp{display: none;}
-    .portrait{
-        width: 240px;
-        height: 240px;
-        
-    }
-
-    p{font-size: 24px;}
-    h1{font-size: 52.3px;}
-    .scrollDown{
-        display: none;
-    }
-    .swipeDown{
-        display: block;
-    }
-    
-}
-
-/* Tablet Responsive */
-
-@media screen and (max-width: 568px){
-
-    .popUp{display: none;}
-    .myTitle{font-size: 39.4px;}
-    .introduction{margin: 80px 0 138px 0;}
-
-    .portrait{
-        width:154px;
-        height:154px;
-    
-    }
-    p{font-size: 18px;}
-    h1{font-size: 39.4px;}
-
-    .scrollDown{
-        display: none;
-    }
-
-    .swipeDown{
-        display:block;
-        margin: 123px 0 18px 0;
-        font-size: 14px;
-    }
-}
-/*Mobile Responsive */
+/*# sourceMappingURL=Homepage.module.css.map */

@@ -1,0 +1,97 @@
+$primary-color: #384264
+$secondary-color: #F81783
+$white: #ffffff
+
+.portrait
+    filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25))
+    margin-bottom: 47px
+    z-index: -1
+
+span
+    color: $secondary-color
+
+h1
+    font-weight: 200
+
+.container
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    align-items: center
+    margin: 100px 0 138px 0
+    color: $white
+
+.scrollDown, .swipeDown
+    margin: 123px 0 18px 0
+    font-size: 18px
+
+@media screen and ( min-width: 1024px  )
+    .portrait
+        width: 240px
+        height: 240px
+
+    p
+        font-size: 24px
+
+    h1
+        font-size: 52.3px
+
+    .swipeDown
+        display: none
+
+// Desktop Responsive
+    
+@media screen and ( max-width: 1024px )
+    .portrait
+        width: 240px
+        height: 240px
+
+    p
+        font-size: 24px
+    h1
+        font-size: 52.3px
+    .swipeDown
+        display: none
+
+// Laptop Responsive
+
+@media screen and ( max-width: 768px )
+    .portrait
+        width: 240px
+        height: 240px
+
+    p
+        font-size: 24px
+
+    h1
+        font-size: 52.3px
+
+    .scrollDown
+        display: none
+    .swipeDown
+        display: block
+
+// Tablet Responsive
+
+@media screen and ( max-width: 568px )
+    .introduction
+        margin: 80px 0 138px 0
+
+    .portrait
+        width: 154px
+        height: 154px
+
+    p
+        font-size: 18px
+    h1
+        font-size: 39.4px
+    .scrollDown
+        display: none
+
+    .swipeDown
+        display: block
+        margin: 123px 0 18px 0
+        font-size: 14px
+
+// Mobile Responsive
