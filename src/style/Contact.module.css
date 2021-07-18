@@ -38,7 +38,7 @@
     display: inline-flex;
     margin: 0 11px;
   }
-  p {
+  .icon p {
     margin: 0 10px;
   }
 }
@@ -111,7 +111,7 @@
     display: inline-flex;
     margin: 0 11px;
   }
-  p {
+  .icon p {
     margin: 0 10px;
   }
 }

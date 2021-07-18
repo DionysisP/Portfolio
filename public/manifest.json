@@ -1,5 +1,5 @@
 {
-  "short_name": "Dionysis Patsioura",
+  "short_name": "Dionysis Patsiouras",
   "name": "Dionysis Patsiouras - Front End Developer",
   "icons": [
     {
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#f81783",
   "background_color": "#ffffff"
 }
