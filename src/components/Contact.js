@@ -1,7 +1,9 @@
 import classes from './style/Contact.module.css';
 import phone from '../images/phone.svg';
-import email from '../images/email.svg';
-import location from '../images/location.svg';
+
+import email from '../../src/images/icons/email.svg'
+import location from '../../src/images/icons/location.svg'
+
 
 
 export default function Contact(props){

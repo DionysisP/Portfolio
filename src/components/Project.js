@@ -1,12 +1,14 @@
 import React from 'react'
 import classes from './style/Project.module.css'
-import arrow from '../images/arrow.svg'
+
+import arrow from '../../src/images/icons/arrow.svg'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import Modal from './portfolioComponents/Modal';
 import ViewCodeButton from './portfolioComponents/ViewCodeButton'
-import close from './portfolioComponents/images/close.svg'
-// import zoom from './portfolioComponents/images/zoom.svg'
+
+import close from '../../src/images/icons/close.svg'
+
 import style2 from './style/Modal.module.css'
 
 

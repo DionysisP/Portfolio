@@ -1,4 +1,4 @@
-import style from '../style/About.module.css';
+import style from '../style/newAbout.module.css';
 export default function Insert(props){
     return(
         <section>

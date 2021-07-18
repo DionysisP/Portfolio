@@ -1,19 +1,20 @@
 import classes from './style/Homepage.module.css'
-import style from './style/About.module.css'
+import style from './style/newAbout.module.css'
 
 import cv from '../images/cv.jpg'
-import Table from './portfolioComponents/Table'
+
 import Insert from './portfolioComponents/Insert'
 
 
 import pdf from '../images/Dionysis-Patsiouras-CV.pdf'
 
-import college from '../images/college.svg'
-import work from '../images/work.svg'
-import settings from '../images/settings.svg'
+
+import college from '../../src/images/icons/college.svg'
+import work from '../../src/images/icons/work.svg'
+import settings from '../../src/images/icons/settings.svg'
 
 
-export default function Cv() {
+export default function About() {
 
     return (
 
@@ -21,12 +22,26 @@ export default function Cv() {
             <h1>Curriculum Vitae</h1>
             <p className={classes.paragraph}>Download pdf <a style={{ 'color': '#f81783' }} href={pdf} download>here</a></p>
 
-            <Table title='Education' image={college} />
+            <div className={style.container}>
+                <div className={style.div1}>
+                    <img className={style.icons} src={college} alt="Icons" />
+                </div>
+                <div className={style.div2}>
+                    <p className={style.title}>Education</p>
+                </div>
+            </div>
             <Insert year='2020' title='Google UX Design Certificate' description='OAED Scholarship in UX Design' />
             <Insert year='2013-2015' title='Web Design - Video Games Development' description='Student at IEK AKMI Thessaloniki ' />
 
 
-            <Table title='Experience' image={work} />
+            <div className={style.container}>
+                <div className={style.div1}>
+                    <img className={style.icons} src={work} alt="Icons" />
+                </div>
+                <div className={style.div2}>
+                    <p className={style.title}>Experience</p>
+                </div>
+            </div>
             <Insert year='2019' title='Waiter & Cook' description='I worked seasonal in a Pub called Bier Center as waiter and cook.' />
             <Insert year='2018' title='Logistics - Storekeeper' description='I worked as storekeeper for Leroy Merlin. I was part of a Voucher Program for 3 months. ' />
             <Insert year='2017' title='Contact center' description='During my service in army, I was basically an officer. My job was ansewring calls, sending Fax, make copies and more office-related tasks.' />
@@ -35,7 +50,15 @@ export default function Cv() {
 
 
 
-            <Table title='Skills' image={settings} />
+            <div className={style.container}>
+                <div className={style.div1}>
+                    <img className={style.icons} src={settings} alt="Icons" />
+                </div>
+                <div className={style.div2}>
+                    <p className={style.title}>Skills</p>
+                </div>
+            </div>
+
             <div className={style.list}>
             <ul>
                 <li className={style.listTitle}>Front - End</li>
@@ -68,7 +91,7 @@ export default function Cv() {
 
             <div style={{ 'padding': '75px 0' }}>
                 <p className={classes.paragraph}>Download pdf <a style={{ 'color': '#f81783' }} href={pdf} download>here</a></p>
-                <img className="cv" src={cv} alt="Curriculum Vitae" />
+                <img className={style.cv} src={cv} alt="Curriculum Vitae" />
             </div>
         </div>
     );

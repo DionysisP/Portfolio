@@ -3,9 +3,9 @@ import style2 from '../style/Logos.module.css'
 import style3 from '../style/Modal.module.css';
 import data from './logos.json'
 import Modal from './Modal'
-import close from '../portfolioComponents/images/close.svg';
-import { useState } from 'react';
 
+import close from '../../../src/images/icons/close.svg'
+import { useState } from 'react';
 
 
 export default function DisplayLogos() {
@@ -29,7 +29,7 @@ export default function DisplayLogos() {
                 return (
                     <div key={show.id}>
                         <img
-                            src={require('./images/' + show.image + '.svg').default}
+                            src={require('../../../src/images/logos/' + show.image + '.svg').default}
                             className={style2.logo}
                             alt='logo'
                             onClick={() => {
