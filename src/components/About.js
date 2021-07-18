@@ -1,5 +1,5 @@
 import classes from './style/Homepage.module.css'
-import style from './style/newAbout.module.css'
+import style from './style/About.module.css'
 
 import cv from '../images/cv.jpg'
 

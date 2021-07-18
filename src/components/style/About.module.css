@@ -1,183 +1,220 @@
 .container {
-    width: 937px;
-    display: inline-flex;
-    margin-top: 120px;
+  width: 937px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 120px;
 }
 
 .contain {
-    text-align: left;
+  text-align: left;
 }
 
 .div2 {
-    border-bottom: 1px solid #EBEBEB;
-    width: 804px;
-    height: 32px;
-    text-align: left;
+  border-bottom: 1px solid #EBEBEB;
+  width: 804px;
+  height: 32px;
+  text-align: left;
 }
 
 .icons {
-    width: 75px;
-    height: 75px;
-    position: relative;
-    bottom: 18px;
-    right: 32px;
-    border-radius: 200px;
+  width: 75px;
+  height: 75px;
+  position: relative;
+  bottom: 18px;
+  right: 32px;
+  border-radius: 200px;
 }
 
 .title {
-    color: #3C3C3C;
-    font-size: 24px;
+  color: #3C3C3C;
+  font-size: 24px;
 }
 
 .year {
-    color: #F81783;
-    width: 89px;
+  color: #F81783;
+  width: 89px;
 }
 
 .edu {
-    padding-left: 100px;
+  padding-left: 100px;
 }
 
 section {
-    display: inline-flex;
-    width: 800px;
-    margin: 35px 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 800px;
+  margin: 35px 0;
 }
 
 section p {
-    color: black;
+  color: black;
 }
 
 .description {
-    font-size: 18px;
-    color: #9D9D9D;
-    padding-left: 100px;
-    text-align: left;
-    width: 600px;
+  font-size: 18px;
+  color: #9D9D9D;
+  padding-left: 100px;
+  text-align: left;
+  width: 600px;
 }
 
 .list {
-    text-align: left;
-    display: inline-flex;
+  text-align: left;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .list ul {
-    padding: 0 75px;
+  padding: 0 75px;
 }
 
 .listTitle {
-    color: #A6A6A6;
+  color: #A6A6A6;
 }
 
 .list li {
-    padding: 7px 0;
-    text-transform: capitalize;
+  padding: 7px 0;
+  text-transform: capitalize;
+}
+
+.cv {
+  width: 408px;
+  -webkit-filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
 }
 
 @media screen and (max-width: 1024px) {
-    .container {
-        width: 800px;
-        display: inline-flex;
-        margin-top: 0px;
-    }
-    .div2 {
-        text-align: left;
-        padding: 0;
-    }
-    .contain {
-        text-align: left;
-    }
-    .edu, .description {
-        padding-left: 35px;
-        font-size: 22px;
-        width: 600px;
-    }
-    .title {
-        font-size: 24px;
-    }
-    .year {
-        font-size: 22px;
-        width: 100px;
-    }
-    .icons {
-        display: none;
-    }
-    section {
-        width: 800px;
-    }
+  .container {
+    width: 80vw;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-top: 0px;
+  }
+  .div2 {
+    text-align: left;
+    padding: 0;
+  }
+  .contain {
+    text-align: left;
+  }
+  .edu, .description {
+    padding-left: 35px;
+    font-size: 22px;
+    width: 50vw;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .year {
+    font-size: 22px;
+    width: 100px;
+  }
+  .icons {
+    display: none;
+  }
+  section {
+    width: 80vw;
+  }
+  .cv {
+    padding: 50px 0 0 0;
+    width: 408px;
+  }
+  .list ul {
+    padding-top: 40px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        width: 600px;
-        display: inline-flex;
-        margin-top: 0px;
-    }
-    .div2 {
-        text-align: left;
-        padding: 0;
-    }
-    .contain {
-        text-align: left;
-    }
-    .edu, .description {
-        padding-left: 35px;
-        font-size: 22px;
-        width: 400px;
-    }
-    .title {
-        font-size: 22px;
-    }
-    .year {
-        font-size: 20px;
-        width: 70px;
-    }
-    .icons {
-        display: none;
-    }
-    section {
-        width: 600px;
-    }
+  .container {
+    width: 80vw;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-top: 0px;
+  }
+  .div2 {
+    text-align: left;
+    padding: 0;
+  }
+  .contain {
+    text-align: left;
+  }
+  .edu, .description {
+    padding-left: 35px;
+    font-size: 22px;
+    width: 50vw;
+  }
+  .title {
+    font-size: 22px;
+  }
+  .year {
+    font-size: 20px;
+    width: 70px;
+  }
+  .icons {
+    display: none;
+  }
+  section {
+    width: 80vw;
+  }
+  .cv {
+    padding: 50px 0 0 0;
+    width: 208px;
+  }
+  .list ul {
+    text-align: left;
+    padding: 40px;
+  }
 }
 
 @media screen and (max-width: 568px) {
-    .container {
-        width: 300px;
-        display: inline-flex;
-        margin-top: 0px;
-    }
-    .div2 {
-        text-align: left;
-        padding: 0;
-    }
-    .contain {
-        text-align: left;
-    }
-    .edu, .description {
-        padding-left: 15px;
-        font-size: 18px;
-        width: 200px;
-    }
-    .title {
-        font-size: 18px;
-    }
-    .year {
-        font-size: 16px;
-        width: 70px;
-    }
-    .icons {
-        display: none;
-    }
-    section {
-        width: 300px;
-    }
-    .list {
-        text-align: center;
-    }
-    .list ul {
-        text-align: left;
-        padding: 20px;
-    }
+  .container {
+    width: 300px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-top: 0px;
+  }
+  .div2 {
+    text-align: left;
+    padding: 0;
+  }
+  .contain {
+    text-align: left;
+  }
+  .edu, .description {
+    padding-left: 15px;
+    font-size: 18px;
+    width: 200px;
+  }
+  .title {
+    width: 290px;
+    font-size: 18px;
+  }
+  .year {
+    font-size: 16px;
+    width: 70px;
+  }
+  .icons {
+    display: none;
+  }
+  section {
+    width: 300px;
+  }
+  .list {
+    text-align: center;
+  }
+  .list ul {
+    text-align: left;
+    padding: 20px;
+  }
+  .cv {
+    padding: 50px 0 0 0;
+    width: 208px;
+  }
 }
-
-/* Mobile Responsive */
+/*# sourceMappingURL=About.module.css.map */
