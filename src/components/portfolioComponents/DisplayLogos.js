@@ -1,5 +1,4 @@
 import style from '../style/Portfolio.module.css'
-import style2 from '../style/Logos.module.css'
 import style3 from '../style/Modal.module.css';
 import data from './logos.json'
 import Modal from './Modal'
@@ -30,7 +29,7 @@ export default function DisplayLogos() {
                     <div key={show.id}>
                         <img
                             src={require('../../../src/images/logos/' + show.image + '.svg').default}
-                            className={style2.logo}
+                            className={style.logo}
                             alt='logo'
                             onClick={() => {
                                 setImage(show.image)

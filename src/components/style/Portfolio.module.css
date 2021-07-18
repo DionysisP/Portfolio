@@ -71,6 +71,19 @@ h4 {
   fill: white;
 }
 
+.logo {
+  width: 200px;
+  height: 155px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.logo:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
 @media screen and (min-width: 1024px) {
   .projects {
     display: -webkit-inline-box;
