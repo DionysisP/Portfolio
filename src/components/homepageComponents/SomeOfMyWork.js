@@ -1,4 +1,4 @@
-import style from '../style/Homepage.module.css';
+import style from '../../style/Homepage.module.css'
 import { Link } from 'react-router-dom';
 
 

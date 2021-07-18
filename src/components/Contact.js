@@ -1,5 +1,4 @@
-import classes from './style/Contact.module.css';
-
+import classes from '../style/Contact.module.css';
 
 import phone from '../images/icons/phone.svg'
 import email from '../../src/images/icons/email.svg'

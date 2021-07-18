@@ -1,5 +1,7 @@
-import style from '../style/Portfolio.module.css'
-import style3 from '../style/Modal.module.css';
+import style from '../../style/Portfolio.module.css'
+import style3 from '../../style/Modal.module.css'
+
+
 import data from './logos.json'
 import Modal from './Modal'
 

@@ -1,14 +1,12 @@
-import classes from './style/Homepage.module.css'
-import style from './style/About.module.css'
+import classes from '../style/Homepage.module.css'
+import style from '../style/About.module.css'
 
-import cv from '../images/cv.jpg'
 
 import Insert from './portfolioComponents/Insert'
 
 
 import pdf from '../images/Dionysis-Patsiouras-CV.pdf'
-
-
+import cv from '../images/cv.jpg'
 import college from '../../src/images/icons/college.svg'
 import work from '../../src/images/icons/work.svg'
 import settings from '../../src/images/icons/settings.svg'

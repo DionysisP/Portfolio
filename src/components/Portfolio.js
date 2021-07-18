@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 
-import DisplayWebsites from './portfolioComponents/DisplayWebsites';
-import DisplayLogos from './portfolioComponents/DisplayLogos';
+import style from '../style/Portfolio.module.css'
 
-import style from './style/Portfolio.module.css';
+import DisplayWebsites from './portfolioComponents/DisplayWebsites'
+import DisplayLogos from './portfolioComponents/DisplayLogos'
+
+
 
 
 export default function Portfolio() {

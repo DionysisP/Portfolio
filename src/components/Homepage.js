@@ -1,4 +1,6 @@
-import style from './style/Homepage.module.css';
+
+import style from '../style/Homepage.module.css'
+
 import portrait from '../images/portrait.png';
 
 import AFewWords from './homepageComponents/AFewWords';

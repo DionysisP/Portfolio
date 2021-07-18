@@ -1,4 +1,4 @@
-import style from '../style/Homepage.module.css';
+import style from '../../style/Homepage.module.css'
 
 export default function HowISeeMyself(){
 

@@ -1,4 +1,5 @@
-import style from '../style/ViewCodeButton.module.css';
+import style from '../../style/ViewCodeButton.module.css'
+
 export default function ViewCodeButton(props) {
     return (
 

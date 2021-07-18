@@ -1,5 +1,6 @@
+import style from '../../style/ShowProject.module.css'
+
 import ViewCodeButton from './ViewCodeButton';
-import style from '../style/ShowProject.module.css';
 
 import desktop from '../../images/desktop.svg'
 import mobile from '../../images/mobile.svg'
