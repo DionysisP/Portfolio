@@ -1,4 +1,4 @@
-import classes from './style/AFewWords.module.css'
+import classes from './style/Homepage.module.css'
 import style from './style/About.module.css'
 
 import cv from '../images/cv.jpg'

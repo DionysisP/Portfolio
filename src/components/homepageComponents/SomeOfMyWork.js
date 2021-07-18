@@ -1,4 +1,4 @@
-import classes from '../style/SomeOfMyWork.module.css';
+import style from '../style/Homepage.module.css';
 import { Link } from 'react-router-dom';
 
 
@@ -8,11 +8,11 @@ export default function SomeOfMyWork(props) {
         <div className="wrapper">
             <h1>Some Of My Work</h1>
             
-            <div className={classes.display}>
+            <div className={style.display}>
             </div>
          
             <Link to='/portfolio'>
-                <button className={classes.portfolioButton}>Portfolio</button>
+                <button className={style.portfolioButton}>Portfolio</button>
             </Link>
         </div>
     );

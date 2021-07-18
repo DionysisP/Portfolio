@@ -1,6 +1,7 @@
 $primary-color: #384264
 $secondary-color: #F81783
 $white: #ffffff
+$text-grey: #9D9D9D
 
 .portrait
     filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25))
@@ -26,6 +27,35 @@ h1
     margin: 123px 0 18px 0
     font-size: 18px
 
+.paragraph
+    color: $text-grey
+
+.allbars
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    align-content: center
+    justify-content: center
+    margin: 66px auto 0 auto
+    flex-direction: column
+
+.bar
+    text-align: left
+    padding: 22px 0 22px 0
+
+.skill
+    font-size: 26px
+    color: white
+
+.progress
+    width: 490px
+    height: 6px
+    background-color: white
+
+.progressBar
+    height: 6px
+    background-color: #F81783
+
 @media screen and ( min-width: 1024px  )
     .portrait
         width: 240px
@@ -40,8 +70,15 @@ h1
     .swipeDown
         display: none
 
+    .paragraph
+        width: 600px
+        font-size: 18px
+
+    .display
+        display: inline-flex
+
 // Desktop Responsive
-    
+
 @media screen and ( max-width: 1024px )
     .portrait
         width: 240px
@@ -53,6 +90,13 @@ h1
         font-size: 52.3px
     .swipeDown
         display: none
+
+    .paragraph
+        width: 600px
+        font-size: 16px
+    .display
+        text-align: center
+        display: block
 
 // Laptop Responsive
 
@@ -70,6 +114,13 @@ h1
     .scrollDown
         display: none
     .swipeDown
+        display: block
+
+    .paragraph
+        width: 470px
+        font-size: 16px
+    .display
+        text-align: center
         display: block
 
 // Tablet Responsive
@@ -94,4 +145,16 @@ h1
         margin: 123px 0 18px 0
         font-size: 14px
 
+    .paragraph
+        width: 300px
+        font-size: 14px
+    .skill
+        font-size: 14px
+
+    .progress
+        width: 290px
+
+    .display
+        text-align: center
+        display: block
 // Mobile Responsive
