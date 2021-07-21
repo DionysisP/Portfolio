@@ -1,11 +1,12 @@
 
 import style from '../style/Homepage.module.css'
 
-import portrait from '../images/portrait.png';
+import portrait from '../images/portrait.png'
 
-import AFewWords from './homepageComponents/AFewWords';
-import HowISeeMyself from './homepageComponents/HowISeeMyself';
-import SomeOfMyWork from './homepageComponents/SomeOfMyWork';
+import AFewWords from './homepageComponents/AFewWords'
+import HowISeeMyself from './homepageComponents/HowISeeMyself'
+import SomeOfMyWork from './homepageComponents/SomeOfMyWork'
+import Footer from '../components/Footer'
 import React from 'react';
 
 
@@ -32,7 +33,7 @@ export default function Homepage() {
             <AFewWords />
             <HowISeeMyself />
             <SomeOfMyWork />
-
+            <Footer />
         </React.Fragment>
     );
 
