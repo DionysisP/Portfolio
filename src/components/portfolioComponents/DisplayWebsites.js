@@ -1,35 +1,48 @@
+import { Link } from 'react-router-dom'
+
+import data from '../../json/projects.json'
+
+import ViewCodeButton from './ViewCodeButton'
+
 import style from '../../style/Portfolio.module.css'
+import style2 from '../../style/ShowProject.module.css'
 
-import ShowProject from './ShowProject'
-
-import mykonos from '../../images/mykonos.jpg'
-import mykonos2 from '../../images/mykonos2.jpg'
-
-import dpDesk from '../../images/dpDesktop.jpg'
-import dpMob from '../../images/dpMobile.jpg'
+import desktop from '../../images/desktop.svg'
+import mobile from '../../images/mobile.svg'
 
 
 
-export default function DisplayWebsites(){
-    return(
+export default function DisplayWebsites() {
+    return (
         <div className={style.allProjects}>
-                <ShowProject
-                    id='1'
-                    title='Mykonos Instant Transfer'
-                    description='A Single page application I designed and developed in a couple of hours.I used a Wordpress-like theme and rushed it using public domain images.'
-                    websiteImage={mykonos}
-                    websiteImage2={mykonos2}
-                    gitHub={'https://github.com/DionysisP/mykonosProject'}
-                />
-                <ShowProject
-                    id='2'
-                    title='My Portfolio'
-                    description='The very page you are looking right now. This is my first attempt of using React. I designed the layout in Figma.'
-                    websiteImage={dpDesk}
-                    websiteImage2={dpMob}
-                    gitHub={'https://github.com/DionysisP/Portfolio'}
-                />
 
-            </div>
+
+            {data.map(show => {
+                return (
+                    <>
+                        <div key={show.id} className={style2.singleProject}>
+                            <img className={style2.vectorDesktop} src={desktop} alt='Desktop Vector' />
+                            <img className={style2.projImg} src={require('../../images/' + show.desktop_image + '.jpg').default} alt='Project' />
+
+                            <img className={style2.vectorMobile} src={mobile} alt='Mobile Vector' />
+                            <img className={style2.projImg2} src={require('../../images/' + show.mobile_image + '.jpg').default} alt='Project' />
+
+                            <h4 className={style2.projectTitle}>{show.title}</h4>
+                            <p className={style2.projectDesc}>{show.description}</p>
+
+                            <div className={style2.buttons}>
+                            <Link to={'/project/' + show.id}>
+                                <button className={style.btn}>Preview</button>
+                            </Link>
+                            <ViewCodeButton url={show.github} />
+                        </div>
+                        </div>
+                        
+                    </>
+                );
+            })}
+
+
+        </div>
     );
 }
