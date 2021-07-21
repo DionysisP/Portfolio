@@ -1,0 +1,38 @@
+[
+    {   
+        "id" : 1,
+        "image" : "webAtClass",
+        "description" : "Web@Class is an online classroom 'simulation'"
+        
+    },
+    {
+        "id" : 2,
+        "image" : "elida",
+        "description" : "Navigation gauntlet for visually impaired people"
+
+    },
+    {
+        "id" : 3,
+        "image" : "eveningjam",
+        "description" : "Evening Jam is a Jazz/Blues band from Larisa"
+
+    },
+    {
+        "id" : 4,
+        "image" : "ATlogo",
+        "description" : "Alexanter Tsapo Logo"
+
+    },
+    {
+        "id" : 5,
+        "image" : "bell",
+        "description" : "While fooling around on Adobe Illustrator, I suddenly came up with this logo. Cannot really tell what this is about but it reminds me a bell in a strange way."
+
+    },
+    {
+        "id" : 6,
+        "image" : "martini",
+        "description" : "Greek music band from Thesaloniki"
+
+    }
+]
