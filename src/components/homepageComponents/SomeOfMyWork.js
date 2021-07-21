@@ -1,6 +1,6 @@
 import style from '../../style/Homepage.module.css'
 import { Link } from 'react-router-dom';
-
+import MainButton from '../portfolioComponents/MainButton';
 
 export default function SomeOfMyWork(props) {
 
@@ -12,7 +12,7 @@ export default function SomeOfMyWork(props) {
             </div>
          
             <Link to='/portfolio'>
-                <button className={style.portfolioButton}>Portfolio</button>
+                <MainButton text='Portfolio' />
             </Link>
         </div>
     );
