@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import classes from '../style/Project.module.css'
+import classes from '../style/ProjectPage.module.css'
 
 import ViewCodeButton from './portfolioComponents/ViewCodeButton'
 
