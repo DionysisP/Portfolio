@@ -6,7 +6,8 @@
         "url" : "http://mykonos-instant-transfer.com/",
         "technologies" : ["HTML", "CSS", "JQuery"],
         "github" : "https://github.com/DionysisP/mykonosProject",
-        "image" : "mykonos"
+        "desktop_image" : "mykonos",
+        "mobile_image" : "mykonos2"
     },
     {
         "id" : 2,
@@ -15,6 +16,7 @@
         "url" : "http://dionysis-patsiouras.com/",
         "technologies" : ["ReactJS", "SASS", "HTML"],
         "github" : "https://github.com/DionysisP/Portfolio",
-        "image" : "dpDesktop"
+        "desktop_image" : "dpDesktop",
+        "mobile_image" : "dpMobile"
     }
 ]
