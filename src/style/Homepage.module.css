@@ -1,3 +1,45 @@
+.arrow {
+  position: relative;
+  -webkit-animation: arrowMove 1s linear 0s infinite alternate none;
+          animation: arrowMove 1s linear 0s infinite alternate none;
+}
+
+@-webkit-keyframes arrowMove {
+  0% {
+    bottom: 0;
+  }
+  25% {
+    bottom: 3px;
+  }
+  50% {
+    bottom: 6px;
+  }
+  75% {
+    bottom: 9px;
+  }
+  100% {
+    bottom: 12px;
+  }
+}
+
+@keyframes arrowMove {
+  0% {
+    bottom: 0;
+  }
+  25% {
+    bottom: 3px;
+  }
+  50% {
+    bottom: 6px;
+  }
+  75% {
+    bottom: 9px;
+  }
+  100% {
+    bottom: 12px;
+  }
+}
+
 .portrait {
   -webkit-filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));

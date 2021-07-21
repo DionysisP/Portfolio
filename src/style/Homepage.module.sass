@@ -3,6 +3,30 @@ $secondary-color: #F81783
 $white: #ffffff
 $text-grey: #9D9D9D
 
+.arrow
+    position: relative
+    animation: arrowMove 1s linear 0s infinite alternate none
+
+    
+
+@keyframes arrowMove
+    0%
+        bottom: 0
+        
+    25%
+        bottom: 3px
+    
+    50% 
+        bottom: 6px
+
+    75%
+        bottom: 9px
+
+    100%
+        bottom: 12px
+
+        
+
 .portrait
     filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25))
     margin-bottom: 47px
