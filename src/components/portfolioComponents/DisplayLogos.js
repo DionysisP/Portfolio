@@ -2,7 +2,7 @@ import style from '../../style/Portfolio.module.css'
 import style3 from '../../style/Modal.module.css'
 
 
-import data from './logos.json'
+import data from '../../json/logos.json'
 import Modal from './Modal'
 
 import close from '../../../src/images/icons/close.svg'
