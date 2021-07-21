@@ -5,7 +5,7 @@ import style from '../style/Portfolio.module.css'
 import DisplayWebsites from './portfolioComponents/DisplayWebsites'
 import DisplayLogos from './portfolioComponents/DisplayLogos'
 
-
+import Footer from './Footer'
 
 
 export default function Portfolio() {
@@ -27,13 +27,17 @@ export default function Portfolio() {
 
 
     return (
-        <div className="wrapper2" style={{ 'paddingTop': '64px' }}>
-            <h1>Portfolio</h1>
-            <ul className={style.projectList}>
-                <li onClick={() => setActive(1)} className={active === 1 ? style.active : ''}>Web Design</li>
-                <li onClick={() => setActive(2)} className={active === 2 ? style.active : ''}>Logos</li>
-            </ul>
-            {currentlyDisplayed}
-        </div>
+        <>
+            <div className="wrapper2" style={{ 'paddingTop': '64px' }}>
+                <h1>Portfolio</h1>
+                <ul className={style.projectList}>
+                    <li onClick={() => setActive(1)} className={active === 1 ? style.active : ''}>Web Design</li>
+                    <li onClick={() => setActive(2)} className={active === 2 ? style.active : ''}>Logos</li>
+                </ul>
+                {currentlyDisplayed}
+
+            </div>
+            <Footer />
+        </>
     );
 }
