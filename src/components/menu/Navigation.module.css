@@ -4,7 +4,12 @@
     width:15px;
     cursor: pointer;
     display: flow-root;
-  }
+}
+
+.MenuClose{
+    position: relative;
+  
+}
 
 .topBarBackground{
     background-color: #384264;
@@ -36,6 +41,10 @@ li{
     .topBar{display: none;}
     .topBarBackground{height:86px;}
     .burgerLabel{margin:29px 0;}
+    .MenuClose{  
+        bottom: 28px;
+        left:67px;
+    }
 }
 /* Table Responsive */
 
@@ -45,7 +54,11 @@ li{
     .topBar{display: none;}
     .topBarBackground{height: 64px;}
     .burgerLabel{margin:17px 0;}
-
+    .MenuClose{  
+        bottom: 28px;
+        left:67px;
+        font-size: 24px;
+    }
 }
 
 /*Mobile Responsive*/

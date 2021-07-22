@@ -14,6 +14,7 @@ export default function ResponsiveMenu() {
         setChecked(!checked)
     }
 
+
     
 
         var menu =
@@ -72,8 +73,9 @@ export default function ResponsiveMenu() {
                     <span className='line'></span>
                     <span className='line'></span>
                     <span className='line'></span>
+                    <p className={classes.MenuClose}>{showMenu === false ? 'Menu' : 'Close'}</p>
                 </label>
-
+                
                 {menu}
 
             </div>
