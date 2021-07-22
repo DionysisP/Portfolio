@@ -6,7 +6,7 @@ import classes2 from './ResponsiveMenu.module.css';
 export default function ResponsiveMenu() {
 
 
-    const [showMenu, setShowMenu] = useState(true);
+    const [showMenu, setShowMenu] = useState(false);
     const [checked, setChecked] = useState(true);
 
     function redirect() {
@@ -14,10 +14,10 @@ export default function ResponsiveMenu() {
         setChecked(!checked)
     }
 
-    if (!showMenu) {
+    
 
         var menu =
-            <nav className={classes2.responsiveBox}>
+            <nav className={ showMenu === (true) ? classes2.slide : classes2.responsiveBox}>
                 <ul>
                     <li>
                         <Link to='/' onClick={redirect}>
@@ -60,7 +60,7 @@ export default function ResponsiveMenu() {
                     </li>
                 </ul>
             </nav>
-    }
+    
 
 
 
