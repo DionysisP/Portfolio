@@ -1,9 +1,9 @@
 .burgerLabel{
-    margin: 13px 0 0 15px;
+    margin: 17px 0;
     position: relative;
     width:15px;
-    bottom:8px;
     cursor: pointer;
+    display: flow-root;
   }
 
 .topBarBackground{
@@ -35,7 +35,7 @@ li{
 
     .topBar{display: none;}
     .topBarBackground{height:86px;}
-    .burgerLabel{bottom:-4px;}
+    .burgerLabel{margin:29px 0;}
 }
 /* Table Responsive */
 
@@ -44,7 +44,7 @@ li{
 
     .topBar{display: none;}
     .topBarBackground{height: 64px;}
-    .burgerLabel{bottom:8px;}
+    .burgerLabel{margin:17px 0;}
 
 }
 
