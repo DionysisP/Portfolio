@@ -18,7 +18,7 @@ export default function Contact(props){
 
                 <div className={classes.item}>
                     <img src={email} alt='Location'/>
-                    <p>dion.patsiouras@gmail.com</p>
+                    <a href="mailto:dion.patsiouras@gmail.com"><p>dion.patsiouras@gmail.com</p></a>
                 </div>
 
                 <div className={classes.item}>

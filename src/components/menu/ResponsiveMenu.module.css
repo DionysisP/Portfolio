@@ -69,7 +69,7 @@
 
 @media screen and (max-width: 568px){
     .responsiveBox{
-        top: 64px;
+        top: 65px;
         left: -568px;
     }
     .slide{top:64px;}
