@@ -1,0 +1,264 @@
+.singleProject p {
+  color: grey;
+  height: auto;
+}
+
+.singleProject h4 {
+  font-weight: 100;
+}
+
+.btn:hover {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  background-color: #454545;
+}
+
+@media screen and (min-width: 1024px) {
+  .singleProject {
+    padding: 50px;
+  }
+  .singleProject h4 {
+    color: #000000;
+    font-size: 28px;
+  }
+  .singleProject p {
+    font-size: 15px;
+    width: 400px;
+    text-align: left;
+    margin: 0 auto;
+  }
+  .vectorDesktop {
+    width: 400px;
+  }
+  .vectorMobile {
+    width: 100px;
+    position: relative;
+    margin-left: -45px;
+  }
+  .projImg {
+    width: 364px;
+    height: 207px;
+    margin-bottom: 68px;
+    margin-left: -381px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 6px;
+  }
+  .projImg2 {
+    position: absolute;
+    width: 70px;
+    height: 124px;
+    margin-top: 146px;
+    margin-left: -85px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 3px;
+  }
+  .btn {
+    width: 196px;
+    height: 47px;
+    border: none;
+    background-color: #384264;
+    padding: 10px 40px;
+    color: white;
+    margin: 20px 2.5px 0 2.5px;
+    font-size: 18px;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .singleProject {
+    padding: 50px;
+  }
+  .singleProject h4 {
+    color: #000000;
+    font-size: 28px;
+  }
+  .singleProject p {
+    font-size: 15px;
+    width: 400px;
+    text-align: left;
+    margin: 0 auto;
+  }
+  .vectorDesktop {
+    width: 400px;
+  }
+  .vectorMobile {
+    width: 100px;
+    position: relative;
+    margin-left: -45px;
+  }
+  .projImg {
+    width: 364px;
+    height: 207px;
+    margin-bottom: 68px;
+    margin-left: -381px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 6px;
+  }
+  .projImg2 {
+    position: absolute;
+    width: 70px;
+    height: 124px;
+    margin-top: 146px;
+    margin-left: -85px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 3px;
+  }
+  .btn {
+    width: 196px;
+    height: 47px;
+    border: none;
+    background-color: #384264;
+    padding: 10px 40px;
+    color: white;
+    margin: 20px 2.5px 0 2.5px;
+    font-size: 18px;
+  }
+  .btn:hover {
+    cursor: pointer;
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .singleProject h4 {
+    font-size: 28px;
+    margin-top: -210px;
+  }
+  .singleProject {
+    padding: 50px;
+    border-bottom: 1px solid #dadada;
+  }
+  .singleProject p {
+    font-size: 18px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0 0 25px 0;
+  }
+  .vectorDesktop {
+    width: 340px;
+  }
+  .vectorMobile {
+    width: 86px;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -150px;
+  }
+  .projImg {
+    width: 311px;
+    height: 177px;
+    top: -243px;
+    margin-left: 1px;
+    position: relative;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 6px;
+  }
+  .projImg2 {
+    position: absolute;
+    width: 60px;
+    height: 106px;
+    margin-top: -134px;
+    margin-left: -27px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 3px;
+  }
+  .btn {
+    width: 250px;
+    height: 47px;
+    border: none;
+    background-color: #384264;
+    padding: 10px 40px;
+    color: white;
+    margin: 5px 2.5px 0 2.5px;
+    font-size: 18px;
+  }
+  .btn:hover {
+    cursor: pointer;
+    background-color: black;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .icon {
+    position: absolute;
+    margin-left: 51px;
+    margin-top: -1px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .singleProject h4 {
+    font-size: 20px;
+  }
+  .singleProject {
+    width: 300px;
+    padding: 50px 0;
+    border-bottom: 1px solid #dadada;
+  }
+  .singleProject p {
+    font-size: 15px;
+    width: 250px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0 0 25px 0;
+  }
+  .vectorDesktop {
+    width: 240px;
+  }
+  .vectorMobile {
+    width: 60px;
+    position: absolute;
+    margin-left: -28px;
+    margin-top: -108px;
+  }
+  .projImg {
+    width: 220px;
+    height: 124px;
+    top: -173px;
+    position: relative;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 6px;
+  }
+  .projImg2 {
+    position: absolute;
+    width: 42px;
+    height: 74px;
+    margin-top: -96px;
+    margin-left: -19px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .btn {
+    width: 250px;
+    height: 47px;
+    border: none;
+    background-color: #384264;
+    padding: 10px 40px;
+    color: white;
+    margin: 5px 2.5px 0 2.5px;
+    font-size: 18px;
+  }
+  .btn:hover {
+    cursor: pointer;
+    background-color: black;
+  }
+  .icon {
+    position: absolute;
+    margin-left: 51px;
+    margin-top: 1px;
+  }
+}
+
+/* Mobile Responsive */
+/*# sourceMappingURL=DisplayWebsites.module.css.map */

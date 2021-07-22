@@ -5,7 +5,7 @@ import data from '../../json/projects.json'
 import ViewCodeButton from './ViewCodeButton'
 
 import style from '../../style/Portfolio.module.css'
-import style2 from '../../style/ShowProject.module.css'
+import style2 from '../../style/DisplayWebsites.module.css'
 
 import desktop from '../../images/desktop.svg'
 import mobile from '../../images/mobile.svg'
