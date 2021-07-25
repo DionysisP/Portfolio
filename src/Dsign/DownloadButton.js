@@ -3,7 +3,7 @@ import style from '../Dsign/Dsign.module.css'
 
 export default function DownloadButton(props) {
     return (
-        <a href={require('./icons/' + props.folder + '/' + props.file + props.filetype).default} download={props.file}>
+        <a href={require('./icons/' + props.folder + '/' + props.file + props.filetype).default} download={props.file + props.filetype}>
             <button className={style.buttonTag}>{props.text}<img className={style.buttonImg} src={download} alt='download' /></button>
         </a >
     );
