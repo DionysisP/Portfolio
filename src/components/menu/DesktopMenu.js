@@ -22,8 +22,7 @@ export default function DesktopMenu(){
 
             <li>
                 <Link to='/contact'>Contact</Link>
-            </li>
-      
+            </li>   
         </ul>
     </nav> 
     );

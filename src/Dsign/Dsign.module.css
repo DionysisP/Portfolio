@@ -18,16 +18,28 @@ header h3 {
   margin: auto 0;
   padding-left: 23px;
   color: #626262;
+  font-weight: 300;
+}
+
+h4 {
+  text-align: center;
+  font-weight: 400;
+  padding-top: 40px;
 }
 
 h5 {
-  padding: 40px 10vw;
+  padding: 0px 10vw 40px 10vw;
   font-weight: 300;
+  font-size: 16px;
+  width: 855px;
+  margin: 0 auto;
+  color: #afafaf;
 }
 
 .wrapper {
   background-color: white;
-  height: 100vh;
+  max-height: 100%;
+  min-height: 100vh;
 }
 
 .search {
@@ -46,7 +58,10 @@ h5 {
   display: inline-flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 0 10vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 10vw 100px 10vw;
 }
 
 .indivImg {
@@ -56,22 +71,25 @@ h5 {
   width: 82px;
   border-radius: 6px;
   border: 1px solid #89898900;
+  margin: 20px;
 }
 
 .indivImg:hover {
-  border: 1px solid #898989;
+  border: 1px solid #89898900;
+  background-color: #f5f5f5;
 }
 
 .itemSelected {
-  border: 1px solid #898989;
+  border: 1px solid #89898900;
   display: block;
   padding: 25px;
   cursor: pointer;
   width: 82px;
   border-radius: 6px;
-  background-color: #f5f5f5;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  background-color: #e2e2e2;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  margin: 20px;
 }
 
 .icon {
@@ -123,5 +141,12 @@ button {
   position: absolute;
   margin-left: 53px;
   margin-top: 4px;
+}
+
+@media screen and (max-width: 568px) {
+  h5 {
+    width: 280px;
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=Dsign.module.css.map */

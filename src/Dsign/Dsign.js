@@ -5,6 +5,7 @@ import data from './icons.json'
 import { useState } from 'react'
 import DownloadButton from './DownloadButton'
 import { Link } from 'react-router-dom'
+import DonateButton from './DonateButton'
 
 export default function Dsign() {
 
@@ -13,20 +14,14 @@ export default function Dsign() {
     return (
 
         <div className={style.wrapper}>
-
+            {/* {console.log(activeElement)} */}
             <header>
                 <img src={logo} alt='logo' />
                 <h3>Powered by <Link to='/' ><span>Dionysis Patsiouras</span></Link></h3>
-                <form style={{ 'position': 'fixed', 'right': '5vw' }} action="https://www.paypal.com/donate" method="post" target="_blank">
-                    <input className={style.donate} type="hidden" name="business" value="dion.patsiouras@gmail.com" />
-                    <input className={style.donate} type="hidden" name="no_recurring" value="0" />
-                    <input className={style.donate} type="hidden" name="item_name" value="Thanks for supporting me! More icons coming soon!" />
-                    <input className={style.donate} type="hidden" name="currency_code" value="EUR" />
-                    <input className={style.donate} type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-
-                </form>
+                <DonateButton />
             </header>
-            <h5>All icons below are free to use by anyone. Donate and support me!</h5>
+            <h4>Finest Design</h4>
+            <h5>D-SIGN is a desing system. This page offers free icons referring mostly to web developers. Download as many as you want and support me by donating. </h5>
             <div className={style.container}>
             
                 {data.map(item => {
@@ -39,12 +34,12 @@ export default function Dsign() {
                     );
                 })}
             </div>
-
+            
 
             <footer>
                 <div className={style.btns}>
-                    <DownloadButton text='SVG' file={activeElement} filetype='.svg' />
-                    <DownloadButton text='PNG' file={activeElement} filetype='.png' />
+                    <DownloadButton text='SVG' file={activeElement} filetype='SVG' />
+                    {/* <DownloadButton text='PNG' file={activeElement} filetype='.png' /> */}
                 </div>
             </footer>
         </div >
