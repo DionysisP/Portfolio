@@ -38,8 +38,8 @@ export default function Dsign() {
 
             <footer>
                 <div className={style.btns}>
-                    <DownloadButton text='SVG' file={activeElement} filetype='SVG' />
-                    {/* <DownloadButton text='PNG' file={activeElement} filetype='.png' /> */}
+                    <DownloadButton text='SVG' file={activeElement} folder='svg' filetype=".rar" />
+                    <DownloadButton text='PNG' file={activeElement} folder='png' filetype='-black.png' />
                 </div>
             </footer>
         </div >

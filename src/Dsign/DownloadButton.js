@@ -5,7 +5,7 @@ export default function DownloadButton(props) {
 
 
     return (
-        <a href={require('./icons/' + props.file + props.filetype + '.rar').default} download>
+        <a href={require('./icons/' + props.folder + '/' + props.file + props.filetype).default} download>
             <button className={style.buttonTag}>{props.text}<img className={style.buttonImg} src={download} alt='download' /></button>
         </a >
     );

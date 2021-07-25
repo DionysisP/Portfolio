@@ -86,7 +86,7 @@ h5 {
   cursor: pointer;
   width: 82px;
   border-radius: 6px;
-  background-color: #e2e2e2;
+  background-color: #f7f7f7;
   -webkit-transition: 0.7s;
   transition: 0.7s;
   margin: 20px;
@@ -143,10 +143,24 @@ button {
   margin-top: 4px;
 }
 
+@media screen and (max-width: 1024px) {
+  h5 {
+    width: auto;
+    padding: 0 15vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h5 {
+    width: auto;
+    padding: 0 10vw;
+  }
+}
+
 @media screen and (max-width: 568px) {
   h5 {
-    width: 280px;
-    padding: 0;
+    width: auto;
+    padding: 0 10vw;
   }
 }
 /*# sourceMappingURL=Dsign.module.css.map */

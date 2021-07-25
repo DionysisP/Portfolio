@@ -7,7 +7,6 @@ export default function DonateButton() {
             <input className={style.donate} type="hidden" name="item_name" value="Thanks for supporting me! More icons coming soon!" />
             <input className={style.donate} type="hidden" name="currency_code" value="EUR" />
             <input className={style.donate} type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-
         </form>
     );
 }
