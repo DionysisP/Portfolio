@@ -6,7 +6,7 @@ import DisplayWebsites from './portfolioComponents/DisplayWebsites'
 import DisplayLogos from './portfolioComponents/DisplayLogos'
 
 import Footer from './Footer'
-
+import Navigation from './Navigation';
 
 export default function Portfolio() {
 
@@ -28,6 +28,7 @@ export default function Portfolio() {
 
     return (
         <>
+            <Navigation />
             <div className="wrapper2" style={{ 'paddingTop': '64px' }}>
                 <h1>Portfolio</h1>
                 <ul className={style.projectList}>

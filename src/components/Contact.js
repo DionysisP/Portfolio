@@ -1,3 +1,4 @@
+import Navigation from './Navigation';
 import classes from '../style/Contact.module.css';
 
 import phone from '../images/icons/phone.svg'
@@ -8,6 +9,8 @@ import location from '../../src/images/icons/location.svg'
 
 export default function Contact(props){
     return(
+        <>
+        <Navigation />
         <div className='wrapper2' style={{'paddingTop' : '64px'}}>
             <h1>Contact</h1>
             <div className={classes.container}>
@@ -39,5 +42,6 @@ export default function Contact(props){
                 </div>
             </div>
         </div>
+        </>
     );
 }

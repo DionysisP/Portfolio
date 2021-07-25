@@ -9,6 +9,7 @@ import SomeOfMyWork from './homepageComponents/SomeOfMyWork'
 import Footer from '../components/Footer'
 import React from 'react';
 
+import Navigation from './Navigation'
 
 export default function Homepage() {
 
@@ -16,6 +17,7 @@ export default function Homepage() {
 
     return (
         <React.Fragment>
+            <Navigation />
             <div className={style.container}>
 
                 <img className={style.portrait} src={portrait} alt="Portrait" />

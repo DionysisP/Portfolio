@@ -1,10 +1,10 @@
-import React from 'react';
-import DesktopMenu from './menu/DesktopMenu';
-import ResponsiveMenu from './menu/ResponsiveMenu';
+import React from 'react'
+import DesktopMenu from './menu/DesktopMenu'
+import ResponsiveMenu from './menu/ResponsiveMenu'
 
 
 export default function Navigation() {
-
+  
   const [width, setWidth] = React.useState(window.innerWidth);
   const breakpoint = 769;
 

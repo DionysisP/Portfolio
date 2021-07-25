@@ -1,0 +1,116 @@
+[
+    {
+        "id" : 1,
+        "title" : "homepage",
+        "image" : "homepage-black.svg"
+    },
+ 
+    {
+        "id" : 2,
+        "title" : "bookmark",
+        "image" : "bookmark-black.svg"
+    },
+    {
+        "id" : 3,
+        "title" : "check",
+        "image" : "check-black.svg"
+    },
+ 
+    {
+        "id" : 4,
+        "title" : "clock",
+        "image" : "clock-black.svg"
+    },
+  
+    {
+        "id" : 5,
+        "title" : "close",
+        "image" : "close-black.svg"
+    },
+  
+    {
+        "id" : 6,
+        "title" : "coding",
+        "image" : "coding-black.svg"
+    },
+   
+    {
+        "id" : 7,
+        "title" : "delete",
+        "image" : "delete-black.svg"
+    },
+    
+    {
+        "id" : 8,
+        "title" : "download",
+        "image" : "download-black.svg"
+    },
+ 
+    {
+        "id" : 9,
+        "title" : "file",
+        "image" : "file-black.svg"
+    },
+  
+    {
+        "id" : 10,
+        "title" : "location",
+        "image" : "location-black.svg"
+    },
+ 
+    {
+        "id" : 11,
+        "title" : "logout",
+        "image" : "logout-black.svg"
+    },
+  
+    {
+        "id" : 12,
+        "title" : "magnifier",
+        "image" : "magnifier-black.svg"
+    },
+  
+    {
+        "id" : 13,
+        "title" : "mail",
+        "image" : "mail-black.svg"
+    },
+   
+    {
+        "id" : 14,
+        "title" : "menu",
+        "image" : "menu-black.svg"
+    },
+  
+    {
+        "id" : 15,
+        "title" : "notification",
+        "image" : "notification-black.svg"
+    },
+  
+    {
+        "id" : 16,
+        "title" : "photograph",
+        "image" : "photograph-black.svg"
+    },
+ 
+    {
+        "id" : 17,
+        "title" : "profile",
+        "image" : "profile-black.svg"
+    },
+  
+    {
+        "id" : 18,
+        "title" : "share",
+        "image" : "share-black.svg"
+    },
+ 
+    {
+        "id" : 19,
+        "title" : "work",
+        "image" : "work-black.svg"
+    }
+  
+
+]

@@ -1,7 +1,7 @@
 import classes from '../style/Homepage.module.css'
 import style from '../style/About.module.css'
 
-
+import Navigation from './Navigation'
 import Insert from './portfolioComponents/Insert'
 import Footer from '../components/Footer'
 
@@ -16,6 +16,7 @@ export default function About() {
 
     return (
         <>
+        <Navigation />
             <div className="wrapper2" style={{ 'paddingTop': '64px' }}>
                 <h1>Curriculum Vitae</h1>
                 <p className={classes.paragraph}>Download pdf <a style={{ 'color': '#f81783' }} href={pdf} download>here</a></p>
