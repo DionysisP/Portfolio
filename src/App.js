@@ -23,7 +23,7 @@ export default function App() {
         <Route path='/about' component={About} exact />
         <Route path='/portfolio' component={Portfolio} exact />
         <Route path='/contact' component={Contact} exact />
-        <Route path= '/fnst' component={Fnst} exact />
+        <Route path= '/fnst-design-system' component={Fnst} exact />
 
         {projectsData.map(show => {
           return (
