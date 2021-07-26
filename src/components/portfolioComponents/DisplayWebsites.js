@@ -22,10 +22,10 @@ export default function DisplayWebsites() {
 
                     <div key={show.id} className={style2.singleProject}>
                         <img className={style2.vectorDesktop} src={desktop} alt='Desktop Vector' />
-                        <img className={style2.projImg} src={require('../../images/' + show.desktop_image + '.jpg').default} alt='Project' />
+                        <img className={style2.projImg} src={require('../../images/' + show.desktop_image).default} alt='Project' />
 
                         <img className={style2.vectorMobile} src={mobile} alt='Mobile Vector' />
-                        <img className={style2.projImg2} src={require('../../images/' + show.mobile_image + '.jpg').default} alt='Project' />
+                        <img className={style2.projImg2} src={require('../../images/' + show.mobile_image).default} alt='Project' />
 
                         <h4 className={style2.projectTitle}>{show.title}</h4>
                         <p className={style2.projectDesc}>{show.description}</p>

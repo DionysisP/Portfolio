@@ -1,5 +1,5 @@
 import download from './download-white.svg'
-import style from '../Dsign/Dsign.module.css'
+import style from '../fnst/Fnst.module.css'
 
 export default function DownloadButton(props) {
     return (

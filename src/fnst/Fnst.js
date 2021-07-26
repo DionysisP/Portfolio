@@ -1,5 +1,5 @@
 import logo from '../images/favicon512.png'
-import style from '../Dsign/Dsign.module.css'
+import style from '../fnst/Fnst.module.css'
 import data from './icons.json'
 
 import { useState } from 'react'
@@ -7,7 +7,7 @@ import DownloadButton from './DownloadButton'
 import { Link } from 'react-router-dom'
 import DonateButton from './DonateButton'
 
-export default function Dsign() {
+export default function Fnst() {
 
     const [activeElement, setActiveElement] = useState('homepage');
 
@@ -21,8 +21,9 @@ export default function Dsign() {
                 
             </header>
            
-            <h4>Finest Design</h4>
-            <h5>D-SIGN is a desing system. This page offers free icons referring mostly to web developers. Download as many as you want and support me by donating. </h5>
+            <h4>FNST - Design System</h4>
+            <h5>FNST is a desing system. This page offers free icons referring mostly to web developers. Download as many as you want and support me by donating. <a href="mailto:dion.patsiouras@gmail.com"><span style={{'color' : 'blue'}}>Report a problem</span></a></h5>
+            
             <DonateButton />
             <div className={style.container}>
             

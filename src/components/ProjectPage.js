@@ -27,7 +27,7 @@ export default function ProjectPage(props) {
                 </div>
 
                 <div className={classes.container2} >
-                    <img className={classes.websiteImg} src={require('../images/' + props.websiteImg + '.jpg').default} alt='website' />
+                    <img className={classes.websiteImg} src={require('../images/' + props.websiteImg).default} alt='website' />
                 </div>
             </div>
         </div>

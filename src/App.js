@@ -8,7 +8,7 @@ import Contact from './components/Contact'
 import ProjectPage from './components/ProjectPage'
 
 import projectsData from '../src/json/projects.json'
-import Dsign from './Dsign/Dsign'
+import Fnst from './fnst/Fnst'
 
 
 export default function App() {
@@ -22,7 +22,7 @@ export default function App() {
         <Route path='/about' component={About} exact />
         <Route path='/portfolio' component={Portfolio} exact />
         <Route path='/contact' component={Contact} exact />
-        <Route path= '/dsign' component={Dsign} exact />
+        <Route path= '/fnst' component={Fnst} exact />
 
         {projectsData.map(show => {
           return (

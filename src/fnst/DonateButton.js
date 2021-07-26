@@ -1,4 +1,4 @@
-import style from '../Dsign/Dsign.module.css'
+import style from '../fnst/Fnst.module.css'
 export default function DonateButton() {
     return (
         <form className={style.donateBtn} action="https://www.paypal.com/donate" method="post" target="_blank">
