@@ -18,17 +18,19 @@ export default function Dsign() {
             <header>
                 <img src={logo} alt='logo' />
                 <h3>Powered by <Link to='/' ><span>Dionysis Patsiouras</span></Link></h3>
-                <DonateButton />
+                
             </header>
+           
             <h4>Finest Design</h4>
             <h5>D-SIGN is a desing system. This page offers free icons referring mostly to web developers. Download as many as you want and support me by donating. </h5>
+            <DonateButton />
             <div className={style.container}>
             
                 {data.map(item => {
                     
                     return (
                         <div key={item.id} className={activeElement === item.title ? style.itemSelected : style.indivImg} onClick={() => setActiveElement(item.title)}>
-                            <img className={style.icon} src={require('./icons/' + item.image).default} alt='icon' />
+                            <img className={style.icon} src={require('./icons/' + item.title + '-black.svg').default} alt='icon' />
                             <p className={style.imgTitle}>{item.title}</p>
                         </div>
                     );
@@ -39,8 +41,9 @@ export default function Dsign() {
             <footer>
                 <div className={style.btns}>
                     <DownloadButton text='SVG' file={activeElement} folder='svg' filetype=".rar" />
-                    <DownloadButton text='PNG' file={activeElement} folder='png' filetype='-black.png' />
+                    <DownloadButton text='PNG' file={activeElement} folder='png' filetype='.rar' />
                 </div>
+              
             </footer>
         </div >
 

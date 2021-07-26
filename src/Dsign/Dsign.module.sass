@@ -61,7 +61,6 @@ h5
 .indivImg:hover
     border: 1px solid #89898900
     background-color: #f5f5f5
-  
 
 .itemSelected
     border: 1px solid #89898900
@@ -83,8 +82,17 @@ h5
     font-size: 18px
     text-transform: capitalize
 
-.donate
+.donate, .donate2
     display: block
+.donateIcon
+    display: block
+    width: 30px
+    height: 30px
+.donateBtn
+    position: absolute
+    right: 3vw
+    top: 27px
+    display: inherit
 
 footer
     width: 100%
@@ -120,18 +128,54 @@ button
     margin-top: 4px
 
 @media screen and ( max-width: 1024px )
-     h5
+    h5
         width: auto
-        padding: 0 15vw
-
+        padding: 40px 10vw
 
 @media screen and ( max-width: 768px )
     h5
         width: auto
-        padding: 0 10vw
+        padding: 40px 10vw
+    .btns
+        text-align: center
+
+    button
+        width: 155px
+        margin: 0 10px
+        font-size: 25px
+    .buttonImg
+        margin-left: 22px
+        width: 25px
+        height: 25px
 
 
 @media screen and ( max-width: 568px  )
     h5
         width: auto
-        padding: 0 10vw
+        padding: 5vw 10vw
+    h4
+        padding-top: 40px
+
+    header img
+        width: 2.5em
+        height: 2.5em
+        padding-left: 25px
+    .btns
+        text-align: center
+    button
+        width: 115px
+        margin: 0 10px
+        font-size: 25px
+    .buttonImg
+        margin-left: 0
+        width: 25px
+        height: 25px
+    .donateBtn
+        top: 115px
+        position: inherit
+        right: 0
+        padding: 35px 0 55px 0
+        
+    .donate2
+        width: 150px
+        margin: 0 auto
