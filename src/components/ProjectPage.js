@@ -13,7 +13,7 @@ export default function ProjectPage(props) {
 
     return (
 
-        <div className="wrapper2" style={{ 'paddingTop': '64px' }}>
+        <div className="wrapper2" style={{ 'padding': '64px 0' }}>
 
             <h1 className={classes.title}>{props.title}</h1>
             <div className={classes.back}><img src={arrow} alt='arrow' /><Link to={'/Portfolio'}> Back to Projects</Link></div>

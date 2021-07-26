@@ -1,32 +1,33 @@
 [
     {
-        "id" : 1,
+        "id" : 3,
+        "title" : "FNST - Design System",
+        "description" : "FNST is a desing system. This page offers free icons referring mostly to web developers. Download as many as you want and support me by donating.",
+        "url" : "http://dionysis-patsiouras.com/fnst",
+        "technologies" : ["ReactJS", " SASS", " HTML"],
+        "github" : "https://github.com/DionysisP/Portfolio/tree/master/src/fnst",
+        "desktop_image" : "fnst.png",
+        "mobile_image" : "fnstMobile.png"
+    },
+    {
+        "id" : 2,
         "title" : "Mykonos Instant Transfer",
         "description" : "A Single page application I designed and developed in a couple of hours.I used a Wordpress-like theme and rushed it using public domain images.",
         "url" : "http://mykonos-instant-transfer.com/",
-        "technologies" : ["HTML", "CSS", "JQuery"],
+        "technologies" : ["HTML", " CSS", " JQuery"],
         "github" : "https://github.com/DionysisP/mykonosProject",
         "desktop_image" : "mykonos.jpg",
         "mobile_image" : "mykonos2.jpg"
     },
     {
-        "id" : 2,
+        "id" : 1,
         "title" : "My Portfolio",
         "description" : "The very page you are looking right now. This is my first attempt of using React. I designed the layout in Figma.",
         "url" : "http://dionysis-patsiouras.com/",
-        "technologies" : ["ReactJS", "SASS", "HTML"],
+        "technologies" : ["ReactJS", " SASS", " HTML"],
         "github" : "https://github.com/DionysisP/Portfolio",
         "desktop_image" : "dpDesktop.jpg",
         "mobile_image" : "dpMobile.jpg"
-    },
-    {
-        "id" : 3,
-        "title" : "FNST - Design System",
-        "description" : "The very page you are looking right now. This is my first attempt of using React. I designed the layout in Figma.",
-        "url" : "http://dionysis-patsiouras.com/fnst",
-        "technologies" : ["ReactJS", "SASS", "HTML"],
-        "github" : "https://github.com/DionysisP/Portfolio/tree/master/src/fnst",
-        "desktop_image" : "fnst.png",
-        "mobile_image" : "fnstMobile.png"
     }
+    
 ]

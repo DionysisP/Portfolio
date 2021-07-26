@@ -9,7 +9,8 @@ import ProjectPage from './components/ProjectPage'
 
 import projectsData from '../src/json/projects.json'
 import Fnst from './fnst/Fnst'
-
+import Navigation from './components/Navigation'
+import Footer from './components/Footer'
 
 export default function App() {
 
@@ -27,6 +28,7 @@ export default function App() {
         {projectsData.map(show => {
           return (
             <Route key={show.id} path={'/project/' + show.id} exact>
+              <Navigation />
               <ProjectPage
                 title={show.title}
                 desc={show.description}
@@ -35,6 +37,7 @@ export default function App() {
                 git={show.github}
                 websiteImg={show.desktop_image}
               />
+              <Footer />
             </Route>
           );
         })}

@@ -43,7 +43,7 @@ h4 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 90vw;
+  width: 1200px;
 }
 
 .allLogos {
@@ -132,6 +132,9 @@ h4 {
     padding: 0;
     width: auto;
   }
+  .allProjects {
+    width: 90vw;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -155,6 +158,9 @@ h4 {
     padding: 0;
     width: 80vw;
   }
+  .allProjects {
+    width: 90vw;
+  }
 }
 
 @media screen and (max-width: 568px) {
@@ -177,6 +183,9 @@ h4 {
   .allLogos {
     padding: 0px;
     width: 300px;
+  }
+  .allProjects {
+    width: 90vw;
   }
 }
 /*# sourceMappingURL=Portfolio.module.css.map */
