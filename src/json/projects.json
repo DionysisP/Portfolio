@@ -3,7 +3,7 @@
         "id" : 3,
         "title" : "FNST - Design System",
         "description" : "FNST is a desing system. This page offers free icons referring mostly to web developers. Download as many as you want and support me by donating.",
-        "url" : "http://dionysis-patsiouras.com/fnst",
+        "url" : "http://dionysis-patsiouras.com/fnst-design-system",
         "technologies" : ["ReactJS", " SASS", " HTML"],
         "github" : "https://github.com/DionysisP/Portfolio/tree/master/src/fnst",
         "desktop_image" : "fnst.png",
