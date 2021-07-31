@@ -1,5 +1,3 @@
-// import { Link } from 'react-router-dom'
-
 import data from '../../json/projects.json'
 
 import ViewCodeButton from './ViewCodeButton'
@@ -24,7 +22,7 @@ export default function DisplayWebsites() {
                 const showTechs = []
                 
                 for (let tech of show.technologies){
-                    showTechs.push(<img key={tech} src={require('../../images/icons/' + tech + '.png').default} style={{'width':'45px'}} alt={tech}/>)
+                    showTechs.push(<img key={tech} src={require('../../images/icons/tech-icons/' + tech + '.png').default} style={{'width':'45px'}} alt={tech}/>)
                 }
 
                 return (
@@ -46,12 +44,9 @@ export default function DisplayWebsites() {
                         </div>
                     </div>
 
-
                 );
 
             })}
-
-
         </div>
     );
 }

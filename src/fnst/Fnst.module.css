@@ -171,8 +171,12 @@ button {
   .btns {
     text-align: center;
   }
+  footer {
+    min-height: auto;
+  }
   button {
     width: 155px;
+    height: 55px;
     margin: 0 10px;
     font-size: 25px;
   }
@@ -187,6 +191,7 @@ button {
   h5 {
     width: auto;
     padding: 5vw 10vw;
+    font-size: 13px;
   }
   h4 {
     padding-top: 40px;
@@ -198,9 +203,15 @@ button {
   }
   .btns {
     text-align: center;
+    float: none;
+    margin: 15px;
+  }
+  footer {
+    min-height: auto;
   }
   button {
-    width: 115px;
+    width: 120px;
+    height: 45px;
     margin: 0 10px;
     font-size: 25px;
   }
@@ -213,7 +224,7 @@ button {
     top: 115px;
     position: inherit;
     right: 0;
-    padding: 35px 0 55px 0;
+    padding: 5px 0 55px 0;
   }
   .donate2 {
     width: 150px;
