@@ -5,10 +5,10 @@
         "description": "FNST is a desing system. This page offers free icons referring mostly to web developers. Download as many as you want and support me by donating.",
         "url": "http://dionysis-patsiouras.com/fnst-design-system",
         "technologies": [
-            "react.png",
-            "html.png",
-            "sass.png",
-            "illustrator.png"
+            "react",
+            "html",
+            "sass",
+            "illustrator"
         ],
         "github": "https://github.com/DionysisP/Portfolio/tree/master/src/fnst",
         "desktop_image": "fnst.png",
@@ -20,10 +20,10 @@
         "description": "A Single page application I designed and developed in a couple of hours.I used a Wordpress-like theme and rushed it using public domain images.",
         "url": "http://mykonos-instant-transfer.com/",
         "technologies": [
-            "jquery.png",
-            "html.png",
-            "css.png",
-            "photoshop.png"
+            "jquery",
+            "html",
+            "css",
+            "photoshop"
         ],
         "github": "https://github.com/DionysisP/mykonosProject",
         "desktop_image": "mykonos.jpg",
@@ -35,11 +35,11 @@
         "description": "The very page you are looking right now. This is my first attempt of using React. I designed the layout in Figma.",
         "url": "http://dionysis-patsiouras.com/",
         "technologies": [
-            "react.png",
-            "html.png",
-            "sass.png",
-            "illustrator.png",
-            "photoshop.png"
+            "react",
+            "html",
+            "sass",
+            "illustrator",
+            "photoshop"
         ],
         "github": "https://github.com/DionysisP/Portfolio",
         "desktop_image": "dpDesktop.jpg",

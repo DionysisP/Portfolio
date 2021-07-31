@@ -24,7 +24,7 @@ export default function DisplayWebsites() {
                 const showTechs = []
                 
                 for (let tech of show.technologies){
-                    showTechs.push(<img key={tech} src={require('../../images/icons/' + tech).default} style={{'width':'45px'}} alt=''/>)
+                    showTechs.push(<img key={tech} src={require('../../images/icons/' + tech + '.png').default} style={{'width':'45px'}} alt={tech}/>)
                 }
 
                 return (
