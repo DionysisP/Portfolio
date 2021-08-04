@@ -35,11 +35,11 @@ export default function DisplayWebsites() {
 
                         <h4 className={style2.projectTitle}>{show.title}</h4>
                         <p className={style2.projectDesc}>{show.description}</p>
-
+                        
                         {showTechs}
 
                         <div className={style2.buttons}>
-                            <a href={show.url} target="_blank" rel="noreferrer"><MainButton text='Visit Website' /></a>
+                            <MainButton text='Visit Website' url={show.url}/>
                             <ViewCodeButton url={show.github} />
                         </div>
                     </div>

@@ -5,12 +5,16 @@ import ScrollToTop from './components/ScrollToTop'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
-import ProjectPage from './components/ProjectPage'
 
-import projectsData from '../src/json/projects.json'
 import Fnst from './fnst/Fnst'
-import Navigation from './components/Navigation'
-import Footer from './components/Footer'
+
+
+// import ProjectPage from './components/ProjectPage'
+
+// import projectsData from '../src/json/projects.json'
+
+// import Navigation from './components/Navigation'
+// import Footer from './components/Footer'
 
 export default function App() {
 
@@ -25,7 +29,7 @@ export default function App() {
         <Route path='/contact' component={Contact} exact />
         <Route path= '/fnst-design-system' component={Fnst} exact />
 
-        {projectsData.map(show => {
+        {/* {projectsData.map(show => {
           return (
             <Route key={show.id} path={'/project/' + show.id} exact>
               <Navigation />
@@ -40,7 +44,7 @@ export default function App() {
               <Footer />
             </Route>
           );
-        })}
+        })} */}
       </Switch>
 
     </div>

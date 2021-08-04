@@ -19,7 +19,6 @@ export default function Homepage() {
         <React.Fragment>
             <Navigation />
             <div className={style.container}>
-
                 <img className={style.portrait} src={portrait} alt="Portrait" />
 
                 <p>Hello!<br />My name is <span>Dionysis Patsiouras</span>, I am passionate </p>
