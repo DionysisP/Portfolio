@@ -110,13 +110,13 @@ h1 {
 
 .skill {
   font-size: 26px;
-  color: white;
+  color: #ffffff;
 }
 
 .progress {
   width: 490px;
   height: 6px;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .progressBar {
