@@ -1,13 +1,7 @@
-import style from '../../style/Portfolio.module.css'
-import style3 from '../../style/Modal.module.css'
-
-
+import { useState } from 'react'
 import data from '../../json/logos.json'
 import Modal from './Modal'
-
-import close from '../../../src/images/icons/close.svg'
-import { useState } from 'react';
-
+import style from '../../style/Portfolio.module.css'
 
 export default function DisplayLogos() {
 
@@ -15,20 +9,14 @@ export default function DisplayLogos() {
     const [image, setImage] = useState('')
     const [desc, setDesc] = useState('')
 
-    if (showModal) {
-        return (
-            <>
-                <img  className={style3.icon} src={close} alt="icon" onClick={() => setShowModal(false)} />
-                <Modal image={image} description={desc}/>
-            </>
-        );
-    }
 
     return (
         <div className={style.allLogos}>
+
             {data.map(show => {
                 return (
                     <div key={show.id}>
+                        {showModal ? <Modal image={image} description={desc} closeModal={() => setShowModal(false)} /> : null}
                         <img
                             src={require('../../../src/images/logos/' + show.image + '.svg').default}
                             className={style.logo}
@@ -38,9 +26,7 @@ export default function DisplayLogos() {
                                 setDesc(show.description)
                                 setShowModal(!showModal)
                             }
-                        }
-                        />
-
+                            }/>
                     </div>
                 );
             })}
