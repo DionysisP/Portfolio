@@ -14,9 +14,13 @@ import settings from '../../src/images/icons/settings.svg'
 
 export default function About() {
 
+    const frontend = ['HTML5', 'CSS', 'SASS', 'Javascript', 'JQuery', 'ReactJs', 'Wordpress']
+    const backend = ['PHP', 'Laravel', 'MySQL']
+    const design = ['Figma', 'Photoshop', 'Illustrator', 'Adobe XD']
+
     return (
         <>
-        <Navigation />
+            <Navigation />
             <div className="wrapper2" style={{ 'paddingTop': '64px' }}>
                 <h1>Curriculum Vitae</h1>
                 <p className={classes.paragraph}>Download pdf <a style={{ 'color': '#f81783' }} href={pdf} download>here</a></p>
@@ -48,7 +52,6 @@ export default function About() {
                 <Insert year='2013-2015' title='Graphic Designer - Web Designer' description='Member of a startup team called HiQroup Team. We developed a browser strategy game. My role was to design UI, Logos, Stickers, Posters and I had my very first times on coding.' />
 
 
-
                 <div className={style.container}>
                     <div className={style.div1}>
                         <img className={style.icons} src={settings} alt="Icons" />
@@ -61,30 +64,18 @@ export default function About() {
                 <div className={style.list}>
                     <ul>
                         <li className={style.listTitle}>Front - End</li>
-                        <li>HTML5</li>
-                        <li>CSS</li>
-                        <li>SASS</li>
-                        <li>JavaScript</li>
-                        <li>JQuery</li>
-                        <li>React</li>
-                        <li>Wordpress</li>
+                        {frontend.map(skill => { return (<li key={skill}>{skill}</li>); })}
                     </ul>
 
                     <ul>
                         <li className={style.listTitle}>Back - End</li>
-                        <li>PHP</li>
-                        <li>Laravel</li>
-                        <li>MySQL</li>
+                        {backend.map(skill => { return (<li key={skill}>{skill}</li>); })}
                     </ul>
 
                     <ul>
                         <li className={style.listTitle}>Design</li>
-                        <li>Figma</li>
-                        <li>Photoshop</li>
-                        <li>Illustrator</li>
-                        <li>Adobe XD</li>
+                        {design.map(skill => { return (<li key={skill}>{skill}</li>); })}
                     </ul>
-
                 </div>
 
                 <div style={{ 'padding': '75px 0' }}>
@@ -92,10 +83,8 @@ export default function About() {
                     <img className={style.cv} src={cv} alt="Curriculum Vitae" />
                 </div>
 
-
             </div>
             <Footer />
         </>
     );
-
 }
