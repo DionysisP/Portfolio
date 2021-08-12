@@ -1,76 +1,91 @@
-.responsiveMenu.ul{flex-direction: column;}
-.slide.ul{flex-direction: column;}
-.responsiveBox{
-    position: fixed;
-    background-color: #384264;
-    width:80%;
-    border-top:1px solid white;
-    padding-top:32px;
-    border-right:1px solid white;
-    height:100%;
-    box-shadow: 17px 0 31px rgba(0, 0, 0, 0.2)  ; 
-	-webkit-box-shadow: 17px 0 31px rgba(0, 0, 0, 0.2)  ; 
-	-moz-box-shadow: 17px 0 31px rgba(0, 0, 0, 0.2)  ;
-    transition: 0.7s;
-    left:-301px;
+.responsiveMenu ul {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.slide{
-    position: fixed;
-    background-color: #384264;
-    width:80%;
-    border-top:1px solid white;
-    padding-top:32px;
-    border-right:1px solid white;
-    height:100%;
-    box-shadow: 17px 0 31px rgba(0, 0, 0, 0.2)  ; 
-	-webkit-box-shadow: 17px 0 31px rgba(0, 0, 0, 0.2)  ; 
-	-moz-box-shadow: 17px 0 31px rgba(0, 0, 0, 0.2)  ;
-    transition: 0.7s;
-    left: 0px;
+.slide ul {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.slide svg{
-    padding-right: 22px;
-    position: relative;
-    top: 6px;
+.responsiveBox {
+  position: fixed;
+  background-color: #384264;
+  width: 80%;
+  border-top: 1px solid #ffffff;
+  padding-top: 32px;
+  border-right: 1px solid #ffffff;
+  height: 100%;
+  box-shadow: 17px 0 31px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 17px 0 31px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 17px 0 31px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  left: -301px;
 }
 
-.slide li{
-    padding: 0 0 32px 31px;
-    text-transform: uppercase;
-    font-size:24px;
+.slide {
+  position: fixed;
+  background-color: #384264;
+  width: 80%;
+  border-top: 1px solid #ffffff;
+  padding-top: 32px;
+  border-right: 1px solid #ffffff;
+  height: 100%;
+  box-shadow: 17px 0 31px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 17px 0 31px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 17px 0 31px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  left: 0px;
 }
 
-.responsiveBox svg{
-    padding-right: 22px;
-    position: relative;
-    top: 6px;
+.slide svg {
+  padding-right: 22px;
+  position: relative;
+  top: 6px;
 }
 
-.responsiveBox li{
-    padding: 0 0 32px 31px;
-    text-transform: uppercase;
-    font-size:24px;
+.slide li {
+  padding: 0 0 32px 31px;
+  text-transform: uppercase;
+  font-size: 24px;
 }
 
+.responsiveBox svg {
+  padding-right: 22px;
+  position: relative;
+  top: 6px;
+}
+
+.responsiveBox li {
+  padding: 0 0 32px 31px;
+  text-transform: uppercase;
+  font-size: 24px;
+}
 
 @media screen and (max-width: 768px) {
-    .responsiveBox{
-        top: 86px;
-        left:-725px;
-    }
-    .slide{
-        top:86px;
-
-    }
+  .responsiveBox {
+    top: 86px;
+    left: -725px;
+  }
+  .slide {
+    top: 86px;
+  }
 }
 
-
-@media screen and (max-width: 568px){
-    .responsiveBox{
-        top: 65px;
-        left: -568px;
-    }
-    .slide{top:64px;}
+@media screen and (max-width: 568px) {
+  .responsiveBox {
+    top: 65px;
+    left: -568px;
+  }
 }
+
+.slide {
+  top: 64px;
+}
+/*# sourceMappingURL=ResponsiveMenu.module.css.map */
