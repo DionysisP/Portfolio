@@ -64,7 +64,6 @@ export default function About() {
                         <li>HTML5</li>
                         <li>CSS</li>
                         <li>SASS</li>
-                        <li>Bootstrap</li>
                         <li>JavaScript</li>
                         <li>JQuery</li>
                         <li>React</li>
