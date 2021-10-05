@@ -14,9 +14,10 @@ import settings from '../../src/images/icons/settings.svg'
 
 export default function About() {
 
-    const frontend = ['HTML5', 'CSS', 'SASS', 'Javascript', 'JQuery', 'ReactJs', 'Wordpress']
-    const backend = ['PHP', 'Laravel', 'MySQL']
+    const frontend = ['HTML5', 'CSS', 'SASS', 'ReactJs', 'Javascript', 'JQuery', 'Wordpress']
+    const backend = ['PHP', 'Laravel', 'MySQL', 'Python']
     const design = ['Figma', 'Photoshop', 'Illustrator', 'Adobe XD']
+    const currentDate = new Date().getFullYear();
 
     return (
         <>
@@ -45,6 +46,7 @@ export default function About() {
                         <p className={style.title}>Experience</p>
                     </div>
                 </div>
+                <Insert year='2020 - Present' title='Freelancer - Front end Developer' description="I design, develop and maintain mostly SPAs in proffesional way since late 2019. Beside that I'm always busy working  on personal projects"  />
                 <Insert year='2019' title='Waiter & Cook' description='I worked seasonal in a Pub called Bier Center as waiter and cook.' />
                 <Insert year='2018' title='Logistics - Storekeeper' description='I worked as storekeeper for Leroy Merlin. I was part of a Voucher Program for 3 months. ' />
                 <Insert year='2017' title='Contact center' description='During my service in army, I was basically an officer. My job was ansewring calls, sending Fax, make copies and more office-related tasks.' />
